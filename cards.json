@@ -1,0 +1,1467 @@
+[
+  {
+    "id": "IT-A1-M2-U2-S001",
+    "prompt": "To have. Listen and repeat.",
+    "target": "Avere.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S002",
+    "prompt": "I have. Listen and repeat.",
+    "target": "Ho.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S003",
+    "prompt": "You have — one person, informal. Listen and repeat.",
+    "target": "Hai.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S004",
+    "prompt": "He or she has. Listen and repeat.",
+    "target": "Ha.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S005",
+    "prompt": "We have. Listen and repeat.",
+    "target": "Abbiamo.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S006",
+    "prompt": "You have — more than one person. Listen and repeat.",
+    "target": "Avete.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S007",
+    "prompt": "They have. Listen and repeat.",
+    "target": "Hanno.",
+    "type": "model",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S008",
+    "prompt": "I have a book.",
+    "target": "Ho un libro.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "libro"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S009",
+    "prompt": "You have a car — one person, informal.",
+    "target": "Hai una macchina.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "macchina"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S010",
+    "prompt": "She has a sister.",
+    "target": "Lei ha una sorella.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "sorella"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S011",
+    "prompt": "We have a house.",
+    "target": "Abbiamo una casa.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S012",
+    "prompt": "You have time — more than one person.",
+    "target": "Avete tempo.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession"
+    ],
+    "vocabulary": [
+      "tempo"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S013",
+    "prompt": "They have two children.",
+    "target": "Hanno due figli.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "figli",
+      "due"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S014",
+    "prompt": "I have a brother.",
+    "target": "Ho un fratello.",
+    "type": "core",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "fratello"
+    ],
+    "difficulty": 1,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S015",
+    "prompt": "Do you have a book — one person, informal?",
+    "target": "Hai un libro?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "libro"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S016",
+    "prompt": "We do not have a car.",
+    "target": "Non abbiamo una macchina.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "macchina",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S017",
+    "prompt": "Marco has two brothers.",
+    "target": "Marco ha due fratelli.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "fratelli",
+      "due"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S018",
+    "prompt": "They have three books.",
+    "target": "Hanno tre libri.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "libri",
+      "tre"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S019",
+    "prompt": "Do you have time — one person, informal?",
+    "target": "Hai tempo?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question"
+    ],
+    "vocabulary": [
+      "tempo"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S020",
+    "prompt": "I do not have a sister.",
+    "target": "Non ho una sorella.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "sorella",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S021",
+    "prompt": "Do you have a house — more than one person?",
+    "target": "Avete una casa?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question",
+      "indefinite-article",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S022",
+    "prompt": "Anna has a car.",
+    "target": "Anna ha una macchina.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "macchina"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S023",
+    "prompt": "They do not have time.",
+    "target": "Non hanno tempo.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation"
+    ],
+    "vocabulary": [
+      "tempo",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S024",
+    "prompt": "We have two sisters.",
+    "target": "Abbiamo due sorelle.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "sorelle",
+      "due"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S025",
+    "prompt": "Do they have children?",
+    "target": "Hanno figli?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question"
+    ],
+    "vocabulary": [
+      "figli"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S026",
+    "prompt": "He does not have a book.",
+    "target": "Lui non ha un libro.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "libro",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S027",
+    "prompt": "You have two books — more than one person.",
+    "target": "Avete due libri.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "libri",
+      "due"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S028",
+    "prompt": "Does Anna have a brother?",
+    "target": "Anna ha un fratello?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "fratello"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S029",
+    "prompt": "I have three children.",
+    "target": "Ho tre figli.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "figli",
+      "tre"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S030",
+    "prompt": "You do not have a car — one person, informal.",
+    "target": "Non hai una macchina.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "macchina",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S031",
+    "prompt": "Does Marco have time?",
+    "target": "Marco ha tempo?",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question"
+    ],
+    "vocabulary": [
+      "tempo"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S032",
+    "prompt": "They have a house.",
+    "target": "Hanno una casa.",
+    "type": "variation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S033",
+    "prompt": "I have a book. Now make it negative.",
+    "target": "Non ho un libro.",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "libro",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S034",
+    "prompt": "We have a car. Now make it negative.",
+    "target": "Non abbiamo una macchina.",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "macchina",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S035",
+    "prompt": "I have a sister. Now say: We have a sister.",
+    "target": "Abbiamo una sorella.",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "indefinite-article"
+    ],
+    "vocabulary": [
+      "sorella"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S036",
+    "prompt": "She has a book. Now say: She has two books.",
+    "target": "Lei ha due libri.",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural"
+    ],
+    "vocabulary": [
+      "libri",
+      "due"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S037",
+    "prompt": "You have time — one person, informal. Now ask it as a question.",
+    "target": "Hai tempo?",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "yes-no-question"
+    ],
+    "vocabulary": [
+      "tempo"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S038",
+    "prompt": "They have children. Now make it negative.",
+    "target": "Non hanno figli.",
+    "type": "transformation",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "negation"
+    ],
+    "vocabulary": [
+      "figli",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S039",
+    "prompt": "The house is big and we have two cars.",
+    "target": "La casa è grande e abbiamo due macchine.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural",
+      "essere-present",
+      "definite-article",
+      "adjective-agreement",
+      "a-casa-chunk",
+      "coordination"
+    ],
+    "vocabulary": [
+      "macchine",
+      "casa",
+      "due",
+      "grande",
+      "e"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S040",
+    "prompt": "Marco is Italian and has a brother.",
+    "target": "Marco è italiano e ha un fratello.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "essere-present",
+      "indefinite-article",
+      "adjective-agreement",
+      "coordination"
+    ],
+    "vocabulary": [
+      "fratello",
+      "italiano",
+      "e"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S041",
+    "prompt": "Anna has two Italian books.",
+    "target": "Anna ha due libri italiani.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "noun-plural",
+      "adjective-agreement"
+    ],
+    "vocabulary": [
+      "libri",
+      "due",
+      "italiani"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S042",
+    "prompt": "We are at home and have time.",
+    "target": "Siamo a casa e abbiamo tempo.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "essere-present",
+      "a-casa-chunk",
+      "coordination"
+    ],
+    "vocabulary": [
+      "casa",
+      "tempo",
+      "e"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S043",
+    "prompt": "They have a small house.",
+    "target": "Hanno una casa piccola.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "adjective-agreement",
+      "indefinite-article",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa",
+      "piccola"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S044",
+    "prompt": "The book is new and I have time.",
+    "target": "Il libro è nuovo e ho tempo.",
+    "type": "integration",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "possession",
+      "essere-present",
+      "definite-article",
+      "adjective-agreement",
+      "coordination"
+    ],
+    "vocabulary": [
+      "libro",
+      "tempo",
+      "nuovo",
+      "e"
+    ],
+    "difficulty": 3,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S045",
+    "prompt": "I am Italian — a man speaking.",
+    "target": "Sono italiano.",
+    "type": "review",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "adjective-agreement"
+    ],
+    "vocabulary": [
+      "italiano"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S046",
+    "prompt": "We are at home.",
+    "target": "Siamo a casa.",
+    "type": "review",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S047",
+    "prompt": "The house is big.",
+    "target": "La casa è grande.",
+    "type": "review",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "definite-article",
+      "adjective-agreement",
+      "a-casa-chunk"
+    ],
+    "vocabulary": [
+      "casa",
+      "grande"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  },
+  {
+    "id": "IT-A1-M2-U2-S048",
+    "prompt": "Anna is not Italian.",
+    "target": "Anna non è italiana.",
+    "type": "review",
+    "unit": "A1-M2-U2",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "negation",
+      "adjective-agreement"
+    ],
+    "vocabulary": [
+      "italiana",
+      "non"
+    ],
+    "difficulty": 2,
+    "status": "approved",
+    "register": "neutral",
+    "accepted_answers": [],
+    "requires": [
+      "sample-preparation"
+    ],
+    "audio": {
+      "prompt": true,
+      "target": true
+    }
+  }
+]
