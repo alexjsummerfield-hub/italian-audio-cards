@@ -6,13 +6,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -32,13 +33,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -58,13 +60,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -84,13 +87,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -110,13 +114,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -136,13 +141,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -162,13 +168,14 @@
     "type": "model",
     "unit": "A1-M2-U2",
     "targets": [
-      "avere-present",
-      "possession"
+      "avere-present"
     ],
     "grammar": [
       "avere-present"
     ],
-    "vocabulary": [],
+    "vocabulary": [
+      "avere"
+    ],
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
@@ -197,6 +204,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "libro"
     ],
     "difficulty": 1,
@@ -227,6 +235,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "macchina"
     ],
     "difficulty": 1,
@@ -257,6 +266,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "sorella"
     ],
     "difficulty": 1,
@@ -288,6 +298,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "avere",
       "casa"
     ],
     "difficulty": 1,
@@ -317,6 +328,7 @@
       "possession"
     ],
     "vocabulary": [
+      "avere",
       "tempo"
     ],
     "difficulty": 1,
@@ -347,6 +359,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "figli",
       "due"
     ],
@@ -378,6 +391,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "fratello"
     ],
     "difficulty": 1,
@@ -409,6 +423,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "libro"
     ],
     "difficulty": 2,
@@ -440,6 +455,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "macchina",
       "non"
     ],
@@ -471,6 +487,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "fratelli",
       "due"
     ],
@@ -502,6 +519,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "libri",
       "tre"
     ],
@@ -533,6 +551,7 @@
       "yes-no-question"
     ],
     "vocabulary": [
+      "avere",
       "tempo"
     ],
     "difficulty": 2,
@@ -564,6 +583,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "sorella",
       "non"
     ],
@@ -597,6 +617,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "avere",
       "casa"
     ],
     "difficulty": 2,
@@ -627,6 +648,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "macchina"
     ],
     "difficulty": 2,
@@ -657,6 +679,7 @@
       "negation"
     ],
     "vocabulary": [
+      "avere",
       "tempo",
       "non"
     ],
@@ -688,6 +711,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "sorelle",
       "due"
     ],
@@ -719,6 +743,7 @@
       "yes-no-question"
     ],
     "vocabulary": [
+      "avere",
       "figli"
     ],
     "difficulty": 2,
@@ -750,6 +775,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "libro",
       "non"
     ],
@@ -781,6 +807,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "libri",
       "due"
     ],
@@ -813,6 +840,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "fratello"
     ],
     "difficulty": 2,
@@ -843,6 +871,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "figli",
       "tre"
     ],
@@ -875,6 +904,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "macchina",
       "non"
     ],
@@ -906,6 +936,7 @@
       "yes-no-question"
     ],
     "vocabulary": [
+      "avere",
       "tempo"
     ],
     "difficulty": 2,
@@ -937,6 +968,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "avere",
       "casa"
     ],
     "difficulty": 2,
@@ -968,6 +1000,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "libro",
       "non"
     ],
@@ -1000,6 +1033,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "macchina",
       "non"
     ],
@@ -1031,6 +1065,7 @@
       "indefinite-article"
     ],
     "vocabulary": [
+      "avere",
       "sorella"
     ],
     "difficulty": 2,
@@ -1061,6 +1096,7 @@
       "noun-plural"
     ],
     "vocabulary": [
+      "avere",
       "libri",
       "due"
     ],
@@ -1092,6 +1128,7 @@
       "yes-no-question"
     ],
     "vocabulary": [
+      "avere",
       "tempo"
     ],
     "difficulty": 2,
@@ -1122,6 +1159,7 @@
       "negation"
     ],
     "vocabulary": [
+      "avere",
       "figli",
       "non"
     ],
@@ -1158,6 +1196,8 @@
       "coordination"
     ],
     "vocabulary": [
+      "avere",
+      "essere",
       "macchine",
       "casa",
       "due",
@@ -1195,6 +1235,8 @@
       "coordination"
     ],
     "vocabulary": [
+      "avere",
+      "essere",
       "fratello",
       "italiano",
       "e"
@@ -1228,6 +1270,7 @@
       "adjective-agreement"
     ],
     "vocabulary": [
+      "avere",
       "libri",
       "due",
       "italiani"
@@ -1262,6 +1305,8 @@
       "coordination"
     ],
     "vocabulary": [
+      "avere",
+      "essere",
       "casa",
       "tempo",
       "e"
@@ -1296,6 +1341,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "avere",
       "casa",
       "piccola"
     ],
@@ -1330,6 +1376,8 @@
       "coordination"
     ],
     "vocabulary": [
+      "avere",
+      "essere",
       "libro",
       "tempo",
       "nuovo",
@@ -1361,6 +1409,7 @@
       "adjective-agreement"
     ],
     "vocabulary": [
+      "essere",
       "italiano"
     ],
     "difficulty": 2,
@@ -1389,6 +1438,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "essere",
       "casa"
     ],
     "difficulty": 2,
@@ -1419,6 +1469,7 @@
       "a-casa-chunk"
     ],
     "vocabulary": [
+      "essere",
       "casa",
       "grande"
     ],
@@ -1449,6 +1500,7 @@
       "adjective-agreement"
     ],
     "vocabulary": [
+      "essere",
       "italiana",
       "non"
     ],
