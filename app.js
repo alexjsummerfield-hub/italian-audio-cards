@@ -15,7 +15,7 @@ function voices(){if(!synth)return;const current=$('voice').value;$('voice').rep
 function speak(text,lang,done,t){if(t!==token)return;if(!synth){done();return}const u=new SpeechSynthesisUtterance(text);u.lang=lang;const vs=synth.getVoices();u.voice=vs.find(v=>lang==='it-IT'&&v.voiceURI===$('voice').value)||vs.find(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2)))||null;u.rate=lang==='it-IT'?Number($('rate').value):1;u.onend=()=>{if(t===token)done()};u.onerror=()=>{if(t!==token)return;stop();setPhase('ready','Audio unavailable');$('notice').textContent='Audio could not play. Try Play again, or use Reveal and Next for text practice.'};synth.speak(u)}
 function revealText(){const c=session[index];$('answer').hidden=false;$('target').textContent=c.target;$('alternatives').textContent=c.accepted_answers.length?'Also valid: '+c.accepted_answers.join(' / '):(c.type!=='model'&&/^(Non )?(Ho|Hai|Ha|Abbiamo|Avete|Hanno|Sono|Siamo|Lui|Lei)\b/i.test(c.target)?'Subject pronouns may be included or omitted.':'')}
 function normalizeAnswer(text){
- return text.normalize('NFC').toLocaleLowerCase('it').replace(/[’‘]/g,"'").replace(/[.,!?;:…“”"¿¡]/g,' ').replace(/\\s+/g,' ').trim();
+ return text.normalize('NFC').toLocaleLowerCase('it').replace(/[’‘]/g,"'").replace(/[.,!?;:…“”"¿¡]/g,' ').replace(/\s+/g,' ').trim();
 }
 function matchesAnswer(text,card){
  const answer=normalizeAnswer(text);
@@ -50,18 +50,25 @@ function checkAnswer(event){
  $('feedback').hidden=false;
  $('feedback').dataset.result=match?'match':'compare';
  $('feedback').textContent=match?'Matches an accepted answer. Listen and repeat.':'Different from the stored answers. Compare with the model below.';
- // Checking always plays the model, whether or not the text matches.
+ $('response').blur();
+ // Submission always plays the model, whether or not the text matches.
  answer(token);
 }
-function show(){const c=session[index];finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('checkAnswer').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Dictate or type · Check when ready');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save()}
-function next(){stop();if(index+1>=session.length){finished=true;$('bar').value=session.length;setPhase('done','Session complete');$('progress').textContent=`${session.length} cards practised`;$('notice').textContent='Well done. Start a new session for different combinations.';$('response').disabled=true;$('checkAnswer').disabled=true;for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;return}index++;show();}
-$('start').onclick=()=>{stop();session=buildSession();index=0;show();$('notice').textContent='Dictate or type your answer, then Check to compare and hear Italian. Nothing is submitted until you tap Check.';$('prompt').scrollIntoView({behavior:'smooth',block:'center'})};
+function show(){const c=session[index];finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Return to check your answer');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save()}
+function next(){stop();if(index+1>=session.length){finished=true;$('bar').value=session.length;setPhase('done','Session complete');$('progress').textContent=`${session.length} cards practised`;$('notice').textContent='Well done. Start a new session for different combinations.';$('response').disabled=true;for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;return}index++;show();}
+$('start').onclick=()=>{stop();session=buildSession();index=0;show();$('notice').textContent='';$('prompt').scrollIntoView({behavior:'smooth',block:'center'})};
 $('play').onclick=play;
 $('pause').onclick=()=>{stop();setPhase('ready','Paused · Play restarts this card')};
 $('reveal').onclick=()=>{stop();revealText();setPhase('ready','Compare your answer')};
 $('repeat').onclick=()=>{stop();running=true;$('pause').disabled=false;const t=token;answer(t)};
 $('next').onclick=()=>next();
 $('responseForm').onsubmit=checkAnswer;
+$('response').onkeydown=event=>{
+ if(event.key==='Enter'&&!event.isComposing&&event.keyCode!==229){
+  event.preventDefault();
+  if(!event.repeat)checkAnswer(event);
+ }
+};
 $('response').oninput=()=>{$('feedback').hidden=true};
 $('debug').onchange=()=>{$('metadata').hidden=!$('debug').checked};
 $('clear').onclick=()=>{history={};save();$('notice').textContent='Local practice history cleared.'};

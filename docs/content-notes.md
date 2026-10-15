@@ -14,6 +14,8 @@ Routine instructions such as Listen & Repeat belong in the card heading, never i
 
 ## Dictated answer flow
 
-Sentence practice is the default. Production prompts wait indefinitely for an answer; there is no timed reveal or automatic advance. The standard Italian textarea supports the iPhone keyboard's own dictation, without a custom microphone or browser speech recognition. The learner finishes dictation then taps Check. Checking always reveals and plays Italian, including for a matching answer. Introductory MODEL cards remain optional listen-and-repeat preparation.
+Sentence practice is the default. Production prompts wait indefinitely for an answer; there is no timed reveal or automatic advance. The single-line Italian text field supports the iPhone keyboard's own dictation, without a custom microphone or browser speech recognition. The learner finishes dictation then presses Return. Submitting always reveals and plays Italian, including for a matching answer. Introductory MODEL cards remain optional listen-and-repeat preparation.
 
 Comparison ignores case, common dictation punctuation and extra spaces, but preserves Italian accents (e and è are different words). Known optional subject-pronoun alternatives are stored explicitly. A mismatch means different from stored answers, not proof of bad Italian or poor pronunciation. Dictation is an indirect aid, not a pronunciation score. Typed/dictated responses remain in memory on the current card and are not saved or sent by the app; the device keyboard handles dictation.
+
+Return submits the single-line answer field and dismisses the keyboard. There is no check button or dictation helper paragraph. Enter used to confirm an in-progress composition does not submit; held-key repeats are ignored. Native form submission uses the same answer handler.

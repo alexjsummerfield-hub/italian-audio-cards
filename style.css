@@ -3,10 +3,10 @@
 .prompt-note{font-size:16px;color:#51665c;margin-top:-6px;margin-bottom:18px}
 
 #responseForm{border-top:1px solid var(--line);padding-top:20px;margin-top:24px}
-#response{display:block;width:100%;resize:vertical;min-height:100px;margin-top:8px;padding:14px;border:1px solid #9baa9f;border-radius:12px;font:20px/1.5 system-ui,-apple-system,sans-serif;color:var(--ink);background:#fff}
+#response{display:block;width:100%;min-height:56px;margin-top:8px;padding:14px;border:1px solid #9baa9f;border-radius:12px;font:20px/1.5 system-ui,-apple-system,sans-serif;color:var(--ink);background:#fff}
 #response:focus-visible{outline:3px solid #b45935;outline-offset:3px}
-.input-hint{font-size:14px;color:#51665c;margin:10px 0 16px}
-#checkAnswer{background:var(--green);color:#fff}
 #feedback{font-size:16px;border-radius:10px;padding:12px;background:#f7f0e5}
 #feedback[data-result="match"]{background:#eaf2e8}
 .setup label{grid-column:auto}.setup label:first-child{grid-column:1/-1}
+
+#notice:empty{display:none}
