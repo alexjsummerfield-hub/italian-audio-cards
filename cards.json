@@ -1,7 +1,7 @@
 [
   {
     "id": "IT-A1-M2-U2-S001",
-    "prompt": "To have. Listen and repeat.",
+    "prompt": "To have.",
     "target": "Avere.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -28,7 +28,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S002",
-    "prompt": "I have. Listen and repeat.",
+    "prompt": "I have.",
     "target": "Ho.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -55,7 +55,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S003",
-    "prompt": "You have — one person, informal. Listen and repeat.",
+    "prompt": "You have.",
     "target": "Hai.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -78,11 +78,12 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S004",
-    "prompt": "He or she has. Listen and repeat.",
+    "prompt": "He or she has.",
     "target": "Ha.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -109,7 +110,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S005",
-    "prompt": "We have. Listen and repeat.",
+    "prompt": "We have.",
     "target": "Abbiamo.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -136,7 +137,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S006",
-    "prompt": "You have — more than one person. Listen and repeat.",
+    "prompt": "You have.",
     "target": "Avete.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -159,11 +160,12 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "more than one person"
   },
   {
     "id": "IT-A1-M2-U2-S007",
-    "prompt": "They have. Listen and repeat.",
+    "prompt": "They have.",
     "target": "Hanno.",
     "type": "model",
     "unit": "A1-M2-U2",
@@ -221,7 +223,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S009",
-    "prompt": "You have a car — one person, informal.",
+    "prompt": "You have a car.",
     "target": "Hai una macchina.",
     "type": "core",
     "unit": "A1-M2-U2",
@@ -248,7 +250,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S010",
@@ -315,7 +318,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S012",
-    "prompt": "You have time — more than one person.",
+    "prompt": "You have time.",
     "target": "Avete tempo.",
     "type": "core",
     "unit": "A1-M2-U2",
@@ -341,7 +344,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "more than one person"
   },
   {
     "id": "IT-A1-M2-U2-S013",
@@ -408,7 +412,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S015",
-    "prompt": "Do you have a book — one person, informal?",
+    "prompt": "Do you have a book?",
     "target": "Hai un libro?",
     "type": "variation",
     "unit": "A1-M2-U2",
@@ -436,7 +440,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S016",
@@ -537,7 +542,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S019",
-    "prompt": "Do you have time — one person, informal?",
+    "prompt": "Do you have time?",
     "target": "Hai tempo?",
     "type": "variation",
     "unit": "A1-M2-U2",
@@ -564,7 +569,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S020",
@@ -601,7 +607,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S021",
-    "prompt": "Do you have a house — more than one person?",
+    "prompt": "Do you have a house?",
     "target": "Avete una casa?",
     "type": "variation",
     "unit": "A1-M2-U2",
@@ -630,7 +636,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "more than one person"
   },
   {
     "id": "IT-A1-M2-U2-S022",
@@ -793,7 +800,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S027",
-    "prompt": "You have two books — more than one person.",
+    "prompt": "You have two books.",
     "target": "Avete due libri.",
     "type": "variation",
     "unit": "A1-M2-U2",
@@ -821,7 +828,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "more than one person"
   },
   {
     "id": "IT-A1-M2-U2-S028",
@@ -889,7 +897,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S030",
-    "prompt": "You do not have a car — one person, informal.",
+    "prompt": "You do not have a car.",
     "target": "Non hai una macchina.",
     "type": "variation",
     "unit": "A1-M2-U2",
@@ -918,7 +926,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S031",
@@ -1114,7 +1123,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S037",
-    "prompt": "You have time — one person, informal. Now ask it as a question.",
+    "prompt": "You have time. Now ask it as a question.",
     "target": "Hai tempo?",
     "type": "transformation",
     "unit": "A1-M2-U2",
@@ -1141,7 +1150,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "one person, informal"
   },
   {
     "id": "IT-A1-M2-U2-S038",
@@ -1397,7 +1407,7 @@
   },
   {
     "id": "IT-A1-M2-U2-S045",
-    "prompt": "I am Italian — a man speaking.",
+    "prompt": "I am Italian.",
     "target": "Sono italiano.",
     "type": "review",
     "unit": "A1-M2-U2",
@@ -1422,7 +1432,8 @@
     "audio": {
       "prompt": true,
       "target": true
-    }
+    },
+    "prompt_note": "a man speaking"
   },
   {
     "id": "IT-A1-M2-U2-S046",
