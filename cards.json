@@ -212,7 +212,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io ho un libro."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -243,7 +245,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Tu hai una macchina."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -275,7 +279,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Ha una sorella."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -307,7 +313,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi abbiamo una casa."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -337,7 +345,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Voi avete tempo."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -370,7 +380,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro hanno due figli."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -401,7 +413,9 @@
     "difficulty": 1,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io ho un fratello."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -433,7 +447,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Tu hai un libro?"
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -467,7 +483,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi non abbiamo una macchina."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -531,7 +549,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro hanno tre libri."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -562,7 +582,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Tu hai tempo?"
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -596,7 +618,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io non ho una sorella."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -629,7 +653,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Voi avete una casa?"
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -693,7 +719,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro non hanno tempo."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -725,7 +753,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi abbiamo due sorelle."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -756,7 +786,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro hanno figli?"
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -789,7 +821,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Non ha un libro."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -821,7 +855,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Voi avete due libri."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -886,7 +922,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io ho tre figli."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -919,7 +957,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Tu non hai una macchina."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -983,7 +1023,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro hanno una casa."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -994,9 +1036,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S033",
-    "prompt": "I have a book. Now make it negative.",
-    "target": "Non ho un libro.",
-    "type": "transformation",
+    "prompt": "We do not have a book.",
+    "target": "Non abbiamo un libro.",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1016,7 +1058,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi non abbiamo un libro."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1027,9 +1071,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S034",
-    "prompt": "We have a car. Now make it negative.",
-    "target": "Non abbiamo una macchina.",
-    "type": "transformation",
+    "prompt": "I do not have a car.",
+    "target": "Non ho una macchina.",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1049,7 +1093,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io non ho una macchina."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1060,9 +1106,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S035",
-    "prompt": "I have a sister. Now say: We have a sister.",
+    "prompt": "We have a sister.",
     "target": "Abbiamo una sorella.",
-    "type": "transformation",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1080,7 +1126,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi abbiamo una sorella."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1091,9 +1139,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S036",
-    "prompt": "She has a book. Now say: She has two books.",
+    "prompt": "She has two books.",
     "target": "Lei ha due libri.",
-    "type": "transformation",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1112,7 +1160,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Ha due libri."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1123,9 +1173,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S037",
-    "prompt": "You have time. Now ask it as a question.",
-    "target": "Hai tempo?",
-    "type": "transformation",
+    "prompt": "Do you have two sisters?",
+    "target": "Hai due sorelle?",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1134,16 +1184,20 @@
     "grammar": [
       "avere-present",
       "possession",
-      "yes-no-question"
+      "yes-no-question",
+      "noun-plural"
     ],
     "vocabulary": [
       "avere",
-      "tempo"
+      "due",
+      "sorelle"
     ],
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Tu hai due sorelle?"
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1155,9 +1209,9 @@
   },
   {
     "id": "IT-A1-M2-U2-S038",
-    "prompt": "They have children. Now make it negative.",
+    "prompt": "They do not have children.",
     "target": "Non hanno figli.",
-    "type": "transformation",
+    "type": "variation",
     "unit": "A1-M2-U2",
     "targets": [
       "avere-present",
@@ -1176,7 +1230,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro non hanno figli."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1324,7 +1380,9 @@
     "difficulty": 3,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi siamo a casa e abbiamo tempo."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1358,7 +1416,9 @@
     "difficulty": 3,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Loro hanno una casa piccola."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1425,7 +1485,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Io sono italiano."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1455,7 +1517,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Noi siamo a casa."
+    ],
     "requires": [
       "sample-preparation"
     ],
