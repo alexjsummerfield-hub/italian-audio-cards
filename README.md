@@ -23,3 +23,7 @@ Enable GitHub Pages from `main`, `/ (root)`. No build or dependencies. Local pre
 The full source companion guide was unavailable; this prototype introduces all required items in its preparation guide rather than claiming verified alignment to the full course. Content is curated and internally checked; further native-speaker editorial review is welcome.
 
 On phones, an active session uses the visible area above the software keyboard. The card count and controls stay visible while the card body scrolls. **Setup** returns to session settings. Browser toolbar and keyboard changes are tracked through the Visual Viewport API when available.
+
+Audio waits 1.5 seconds after Return so keyboard dictation can release audio. The pause is adjustable in Audio & review settings. Next, Pause, Setup and changing browser visibility cancel pending playback. Automatic voice selection prefers Alice; an explicitly selected voice is saved locally. Duplicate names receive separate numbers and any Compact/Enhanced/Premium hints present in the voice identifier. When no quality hint is exposed, the app reports quality as unknown.
+
+The preparation guide renders headings, paragraphs and individual vocabulary rows from its Markdown source.
