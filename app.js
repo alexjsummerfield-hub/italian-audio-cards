@@ -23,7 +23,7 @@ function matchesAnswer(text,card){
 }
 function play(){
  if(!session.length||finished)return;
- stop();running=true;$('pause').disabled=false;$('play').textContent='▶ Replay prompt';
+ stop();running=true;$('pause').disabled=false;$('play').textContent='▶ Replay';
  const t=token,c=session[index];
  setPhase('prompt',c.type==='model'?'Listen and repeat':'Listen to the prompt');
  speak(c.prompt,'en-GB',()=>{
@@ -54,9 +54,23 @@ function checkAnswer(event){
  // Submission always plays the model, whether or not the text matches.
  answer(token);
 }
-function show(){const c=session[index];finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Return to check your answer');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save();if(c.type!=='model')$('response').focus()}
-function next(){stop();if(index+1>=session.length){finished=true;$('bar').value=session.length;setPhase('done','Session complete');$('progress').textContent=`${session.length} cards practised`;$('notice').textContent='Well done. Start a new session for different combinations.';$('response').disabled=true;for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;return}index++;show();}
-$('start').onclick=()=>{stop();session=buildSession();index=0;show();$('notice').textContent='';if(session[index].type==='model')$('prompt').scrollIntoView({behavior:'smooth',block:'center'})};
+function show(){const c=session[index];document.body.classList.add('practising');$('back').hidden=false;updatePracticeViewport();finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Return to check your answer');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save();if(c.type!=='model')$('response').focus({preventScroll:true})}
+function next(){stop();if(index+1>=session.length){finished=true;$('bar').value=session.length;setPhase('done','Session complete');$('progress').textContent=`${session.length} cards practised`;$('notice').textContent='Well done. Start a new session for different combinations.';$('response').disabled=true;for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;return}index++;show();play();}
+$('start').onclick=()=>{stop();session=buildSession();index=0;show();$('notice').textContent='';play()};
+// Follow the visible area when Safari chrome or the software keyboard moves.
+function updatePracticeViewport(){
+ if(!document.body.classList.contains('practising'))return;
+ const viewport=window.visualViewport;
+ document.documentElement.style.setProperty('--practice-top',(viewport?viewport.offsetTop:0)+'px');
+ document.documentElement.style.setProperty('--practice-height',(viewport?viewport.height:window.innerHeight)+'px');
+}
+window.visualViewport?.addEventListener('resize',updatePracticeViewport);
+window.visualViewport?.addEventListener('scroll',updatePracticeViewport);
+window.addEventListener('resize',updatePracticeViewport);
+$('back').onclick=()=>{
+ stop();$('response').blur();document.body.classList.remove('practising');
+ $('back').hidden=true;$('start').focus({preventScroll:true});
+};
 $('play').onclick=play;
 $('pause').onclick=()=>{stop();setPhase('ready','Paused · Play restarts this card')};
 $('reveal').onclick=()=>{stop();revealText();setPhase('ready','Compare your answer')};

@@ -21,3 +21,5 @@ Italian voice availability and pronunciation depend on browser/device settings. 
 Enable GitHub Pages from `main`, `/ (root)`. No build or dependencies. Local preview: `python3 -m http.server 8000` from this directory, then open http://localhost:8000. Opening index.html directly may block JSON loading.
 
 The full source companion guide was unavailable; this prototype introduces all required items in its preparation guide rather than claiming verified alignment to the full course. Content is curated and internally checked; further native-speaker editorial review is welcome.
+
+On phones, an active session uses the visible area above the software keyboard. The card count and controls stay visible while the card body scrolls. **Setup** returns to session settings. Browser toolbar and keyboard changes are tracked through the Visual Viewport API when available.

@@ -10,3 +10,33 @@
 .setup label{grid-column:auto}.setup label:first-child{grid-column:1/-1}
 
 #notice:empty{display:none}
+
+#back{width:auto;min-height:44px;padding:8px 12px;font-size:14px}
+@media(max-width:600px){
+ body.practising{overflow:hidden}
+ body.practising main> :not(.practice){display:none}
+ body.practising .practice{
+  position:fixed;top:var(--practice-top,0px);left:0;right:0;
+  height:var(--practice-height,100dvh);max-width:600px;margin:0 auto;
+  display:flex;flex-direction:column;overflow:hidden;border:0;border-radius:0;
+  padding:8px max(14px,env(safe-area-inset-right)) 8px max(14px,env(safe-area-inset-left));
+ }
+ body.practising .cardTop{display:grid;grid-template-columns:auto 1fr minmax(0,1fr);align-items:center;gap:10px;flex:none;min-height:44px}
+ body.practising #progress{white-space:nowrap;font-size:13px}
+ body.practising #stage{font-size:11px;line-height:1.25;text-align:right}
+ body.practising progress{flex:none;height:4px;margin:6px 0}
+ body.practising article{flex:1;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;padding:4px 3px 12px;scroll-padding:8px}
+ body.practising h2{font-size:clamp(22px,5.6vw,28px);margin:6px 0 10px}
+ body.practising .eyebrow{font-size:10px;margin:4px 0}
+ body.practising .prompt-note{font-size:14px;margin:0 0 8px}
+ body.practising #responseForm{margin-top:10px;padding-top:10px}
+ body.practising #response{min-height:48px;padding:8px 12px;margin-top:4px}
+ body.practising #feedback{margin:8px 0;padding:8px;font-size:14px}
+ body.practising #answer{margin-top:12px;padding-top:8px}
+ body.practising #target{font-size:24px;margin:6px 0}
+ body.practising #alternatives{font-size:13px}
+ body.practising .controls{flex:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;padding-top:8px;border-top:1px solid var(--line);background:white}
+ body.practising .controls button{min-height:44px;padding:8px 3px;font-size:13px;white-space:nowrap}
+ body.practising .controls #next{grid-column:1/-1;min-height:48px;font-size:16px}
+ body.practising article details{margin-top:12px}
+}
