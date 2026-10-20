@@ -49,3 +49,8 @@
 #guideContent li{margin:0;padding:9px 0;border-bottom:1px solid var(--line);line-height:1.6}
 #guideContent p{margin:12px 0 18px;line-height:1.7}
 #voiceDetails{font-size:12px;color:#51665c;overflow-wrap:anywhere;margin:0 0 16px}
+
+#learningSummary{font-size:14px;color:#51665c}
+#reviewHint{font-size:13px;color:#51665c;margin:6px 0}
+#reviewHint:empty{display:none}
+#acceptAnswer{min-height:44px;padding:8px 12px;font-size:14px;width:auto;margin-top:6px}
