@@ -221,7 +221,7 @@ async function applyCourseSelection(){
  $('scopeNote').hidden=$('scope').value!=='through';
  $('practiceMode').hidden=!bank.some(c=>c.type==='model')||unit.model_only&&$('scope').value==='unit';
  $('guideTitle').textContent='Preparation · '+unit.title;
- $('prompt').textContent='Ready for '+unit.title.toLowerCase()+'.';
+ $('instruction').textContent='PREPARE, THEN PRACTISE';$('prompt').textContent='Ready for '+unit.title.toLowerCase()+'.';
  $('promptNote').hidden=true;$('progress').textContent='Ready when you are';$('bar').value=0;
  setPhase('ready','Read the preparation first');$('notice').textContent='';
  updateLearningSummary();
