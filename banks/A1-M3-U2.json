@@ -1,0 +1,330 @@
+[
+  {
+    "id": "IT-A1-M3-U2-S001",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "We understand Italian.",
+    "target": "Capiamo l'italiano.",
+    "type": "core",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "capiamo",
+      "l'italiano"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi capiamo l'italiano."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S002",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "They leave tomorrow.",
+    "target": "Partono domani.",
+    "type": "core",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "domani",
+      "partono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Loro partono domani."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S003",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "I read a book.",
+    "target": "Leggo un libro.",
+    "type": "core",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "leggo",
+      "libro",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io leggo un libro."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S004",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "Anna writes a letter.",
+    "target": "Anna scrive una lettera.",
+    "type": "core",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "lettera",
+      "scrive",
+      "una"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S005",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "We sleep well.",
+    "target": "Dormiamo bene.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "bene",
+      "dormiamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi dormiamo bene."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S006",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "Do you prefer tea?",
+    "target": "Preferisci il tè?",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present",
+      "question"
+    ],
+    "vocabulary": [
+      "il",
+      "preferisci",
+      "tè"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M3-U2-S007",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "I do not understand.",
+    "target": "Non capisco.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "capisco",
+      "non"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non capisco."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S008",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "We are having a coffee.",
+    "target": "Prendiamo un caffè.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "caffè",
+      "prendiamo",
+      "un"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi prendiamo un caffè."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S009",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "You read three books.",
+    "target": "Leggete tre libri.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "leggete",
+      "libri",
+      "tre"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Voi leggete tre libri.",
+      "Leggete 3 libri.",
+      "Voi leggete 3 libri."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M3-U2-S010",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "My father reads a book, but I write a letter.",
+    "target": "Mio padre legge un libro, ma io scrivo una lettera.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present"
+    ],
+    "vocabulary": [
+      "io",
+      "legge",
+      "lettera",
+      "libro",
+      "ma",
+      "mio",
+      "padre",
+      "scrivo",
+      "un",
+      "una"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S011",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "They do not leave early.",
+    "target": "Non partono presto.",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "non",
+      "partono",
+      "presto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro non partono presto."
+    ],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U2-S012",
+    "unit": "A1-M3-U2",
+    "level": "A1",
+    "prompt": "Do you understand Italian?",
+    "target": "Capite l'italiano?",
+    "type": "variation",
+    "targets": [
+      "ere-ire-present"
+    ],
+    "grammar": [
+      "ere-ire-present",
+      "question"
+    ],
+    "vocabulary": [
+      "capite",
+      "l'italiano"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  }
+]

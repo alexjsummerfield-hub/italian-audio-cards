@@ -1,0 +1,339 @@
+[
+  {
+    "id": "IT-A1-M6-U2-S001",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The book is on the table.",
+    "target": "Il libro è sul tavolo.",
+    "type": "core",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "il",
+      "libro",
+      "sul",
+      "tavolo",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S002",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The dog is under the chair.",
+    "target": "Il cane è sotto la sedia.",
+    "type": "core",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "cane",
+      "il",
+      "la",
+      "sedia",
+      "sotto",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S003",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "We are going to Anna's place.",
+    "target": "Andiamo da Anna.",
+    "type": "core",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "andiamo",
+      "anna",
+      "da"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi andiamo da Anna."
+    ],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S004",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The pharmacy is near the station.",
+    "target": "La farmacia è vicino alla stazione.",
+    "type": "core",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "alla",
+      "farmacia",
+      "la",
+      "stazione",
+      "vicino",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S005",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The café is next to the pharmacy.",
+    "target": "Il bar è accanto alla farmacia.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "accanto",
+      "alla",
+      "bar",
+      "farmacia",
+      "il",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S006",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "Marco is coming from the station.",
+    "target": "Marco viene dalla stazione.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "dalla",
+      "marco",
+      "stazione",
+      "viene"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S007",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "I am going to the doctor's.",
+    "target": "Vado dal medico.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "dal",
+      "medico",
+      "vado"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io vado dal medico."
+    ],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S008",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The restaurant is behind the station.",
+    "target": "Il ristorante è dietro la stazione.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "dietro",
+      "il",
+      "la",
+      "ristorante",
+      "stazione",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S009",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "The café is between the pharmacy and the station.",
+    "target": "Il bar è tra la farmacia e la stazione.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "bar",
+      "e",
+      "farmacia",
+      "il",
+      "la",
+      "stazione",
+      "tra",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S010",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "Anna's book is in the room.",
+    "target": "Il libro di Anna è nella stanza.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "anna",
+      "di",
+      "il",
+      "libro",
+      "nella",
+      "stanza",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S011",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "We are going to the museum.",
+    "target": "Andiamo al museo.",
+    "type": "variation",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "al",
+      "andiamo",
+      "museo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi andiamo al museo."
+    ],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U2-S012",
+    "unit": "A1-M6-U2",
+    "level": "A1",
+    "prompt": "There is a café next to the station and we want to go to the café.",
+    "target": "C'è un bar accanto alla stazione e vogliamo andare al bar.",
+    "type": "integration",
+    "targets": [
+      "prepositions"
+    ],
+    "grammar": [
+      "prepositions"
+    ],
+    "vocabulary": [
+      "accanto",
+      "al",
+      "alla",
+      "andare",
+      "bar",
+      "c'è",
+      "e",
+      "stazione",
+      "un",
+      "vogliamo"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U2"
+    ],
+    "status": "curated"
+  }
+]

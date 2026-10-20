@@ -1,0 +1,345 @@
+[
+  {
+    "id": "IT-A2-M4-U1-S001",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "I have a headache.",
+    "target": "Ho mal di testa.",
+    "type": "core",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "di",
+      "ho",
+      "mal",
+      "testa"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io ho mal di testa."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S002",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "Anna has a fever.",
+    "target": "Anna ha la febbre.",
+    "type": "core",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "anna",
+      "febbre",
+      "ha",
+      "la"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S003",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "We have a cold.",
+    "target": "Abbiamo il raffreddore.",
+    "type": "core",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "il",
+      "raffreddore"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi abbiamo il raffreddore."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S004",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "My back hurts.",
+    "target": "Mi fa male la schiena.",
+    "type": "core",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "fa",
+      "la",
+      "male",
+      "mi",
+      "schiena"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S005",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "My feet hurt.",
+    "target": "Mi fanno male i piedi.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "fanno",
+      "i",
+      "male",
+      "mi",
+      "piedi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S006",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "I do not feel well.",
+    "target": "Non mi sento bene.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions",
+      "negation"
+    ],
+    "vocabulary": [
+      "bene",
+      "mi",
+      "non",
+      "sento"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non mi sento bene."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S007",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "Marco has a sore throat.",
+    "target": "Marco ha mal di gola.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "di",
+      "gola",
+      "ha",
+      "mal",
+      "marco"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S008",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "I have a toothache.",
+    "target": "Ho mal di denti.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "denti",
+      "di",
+      "ho",
+      "mal"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho mal di denti."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S009",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "How do you feel?",
+    "target": "Come ti senti?",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions",
+      "question"
+    ],
+    "vocabulary": [
+      "come",
+      "senti",
+      "ti"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M4-U1-S010",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "I have a headache and a fever.",
+    "target": "Ho mal di testa e ho la febbre.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "di",
+      "e",
+      "febbre",
+      "ho",
+      "la",
+      "mal",
+      "testa"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho mal di testa e ho la febbre."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S011",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "Anna does not feel well and has to go to the doctor's.",
+    "target": "Anna non si sente bene e deve andare dal medico.",
+    "type": "integration",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions",
+      "negation"
+    ],
+    "vocabulary": [
+      "andare",
+      "anna",
+      "bene",
+      "dal",
+      "deve",
+      "e",
+      "medico",
+      "non",
+      "sente",
+      "si"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M4-U1-S012",
+    "unit": "A2-M4-U1",
+    "level": "A2",
+    "prompt": "I have had a sore throat for two days.",
+    "target": "Ho mal di gola da due giorni.",
+    "type": "variation",
+    "targets": [
+      "health-expressions"
+    ],
+    "grammar": [
+      "health-expressions"
+    ],
+    "vocabulary": [
+      "da",
+      "di",
+      "due",
+      "giorni",
+      "gola",
+      "ho",
+      "mal"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho mal di gola da due giorni.",
+      "Ho mal di gola da 2 giorni.",
+      "Io ho mal di gola da 2 giorni."
+    ],
+    "requires": [
+      "A2-M4-U1"
+    ],
+    "status": "curated"
+  }
+]

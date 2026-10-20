@@ -1,0 +1,339 @@
+[
+  {
+    "id": "IT-A1-M4-U1-S001",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "It is three o'clock.",
+    "target": "Sono le tre.",
+    "type": "core",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "le",
+      "sono",
+      "tre"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Sono le 3."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S002",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "It is one o'clock.",
+    "target": "È l'una.",
+    "type": "core",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "l'una",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S003",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "It is quarter past four.",
+    "target": "Sono le quattro e un quarto.",
+    "type": "core",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "e",
+      "le",
+      "quarto",
+      "quattro",
+      "sono",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Sono le 4 e un quarto."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S004",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "It is half past seven.",
+    "target": "Sono le sette e mezza.",
+    "type": "core",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "e",
+      "le",
+      "mezza",
+      "sette",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Sono le 7 e mezza."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S005",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "I leave at eight.",
+    "target": "Parto alle otto.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "alle",
+      "otto",
+      "parto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io parto alle otto.",
+      "Parto alle 8.",
+      "Io parto alle 8."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S006",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "We never drink tea.",
+    "target": "Non beviamo mai il tè.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency",
+      "negation"
+    ],
+    "vocabulary": [
+      "beviamo",
+      "il",
+      "mai",
+      "non",
+      "tè"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi non beviamo mai il tè."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S007",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "Anna works every day.",
+    "target": "Anna lavora ogni giorno.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "anna",
+      "giorno",
+      "lavora",
+      "ogni"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S008",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "We leave on Monday.",
+    "target": "Partiamo lunedì.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "lunedì",
+      "partiamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi partiamo lunedì."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S009",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "I often read in the evening.",
+    "target": "Leggo spesso la sera.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "la",
+      "leggo",
+      "sera",
+      "spesso"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io leggo spesso la sera."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S010",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "What time do you leave?",
+    "target": "A che ora partite?",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency",
+      "question"
+    ],
+    "vocabulary": [
+      "a",
+      "che",
+      "ora",
+      "partite"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M4-U1-S011",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "My father usually works from nine to five.",
+    "target": "Di solito mio padre lavora dalle nove alle cinque.",
+    "type": "integration",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "alle",
+      "cinque",
+      "dalle",
+      "di",
+      "lavora",
+      "mio",
+      "nove",
+      "padre",
+      "solito"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [
+      "Di solito mio padre lavora dalle 9 alle 5."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M4-U1-S012",
+    "unit": "A1-M4-U1",
+    "level": "A1",
+    "prompt": "We leave in June.",
+    "target": "Partiamo in giugno.",
+    "type": "variation",
+    "targets": [
+      "time-frequency"
+    ],
+    "grammar": [
+      "time-frequency"
+    ],
+    "vocabulary": [
+      "giugno",
+      "in",
+      "partiamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi partiamo in giugno."
+    ],
+    "requires": [
+      "A1-M4-U1"
+    ],
+    "status": "curated"
+  }
+]

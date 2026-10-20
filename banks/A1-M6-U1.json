@@ -1,0 +1,336 @@
+[
+  {
+    "id": "IT-A1-M6-U1-S001",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There is a hotel here.",
+    "target": "C'è un albergo qui.",
+    "type": "core",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence"
+    ],
+    "vocabulary": [
+      "albergo",
+      "c'è",
+      "qui",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S002",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There are two museums.",
+    "target": "Ci sono due musei.",
+    "type": "core",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence"
+    ],
+    "vocabulary": [
+      "ci",
+      "due",
+      "musei",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Ci sono 2 musei."
+    ],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S003",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "Is there a pharmacy?",
+    "target": "C'è una farmacia?",
+    "type": "core",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "question"
+    ],
+    "vocabulary": [
+      "c'è",
+      "farmacia",
+      "una"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S004",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There are no restaurants here.",
+    "target": "Non ci sono ristoranti qui.",
+    "type": "core",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "negation"
+    ],
+    "vocabulary": [
+      "ci",
+      "non",
+      "qui",
+      "ristoranti",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S005",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "How many cafés are there?",
+    "target": "Quanti bar ci sono?",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "question"
+    ],
+    "vocabulary": [
+      "bar",
+      "ci",
+      "quanti",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S006",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "How many pharmacies are there?",
+    "target": "Quante farmacie ci sono?",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "question"
+    ],
+    "vocabulary": [
+      "ci",
+      "farmacie",
+      "quante",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S007",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There is a station in Rome.",
+    "target": "C'è una stazione a Roma.",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence"
+    ],
+    "vocabulary": [
+      "a",
+      "c'è",
+      "roma",
+      "stazione",
+      "una"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S008",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There are many parks.",
+    "target": "Ci sono molti parchi.",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence"
+    ],
+    "vocabulary": [
+      "ci",
+      "molti",
+      "parchi",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S009",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "Is there a supermarket nearby?",
+    "target": "C'è un supermercato qui vicino?",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "question"
+    ],
+    "vocabulary": [
+      "c'è",
+      "qui",
+      "supermercato",
+      "un",
+      "vicino"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S010",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There is no café here.",
+    "target": "Non c'è un bar qui.",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "negation"
+    ],
+    "vocabulary": [
+      "bar",
+      "c'è",
+      "non",
+      "qui",
+      "un"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S011",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There are two museums in Rome, but there is no park here.",
+    "target": "Ci sono due musei a Roma, ma non c'è un parco qui.",
+    "type": "integration",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence",
+      "negation"
+    ],
+    "vocabulary": [
+      "a",
+      "c'è",
+      "ci",
+      "due",
+      "ma",
+      "musei",
+      "non",
+      "parco",
+      "qui",
+      "roma",
+      "sono",
+      "un"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [
+      "Ci sono 2 musei a Roma, ma non c'è un parco qui."
+    ],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U1-S012",
+    "unit": "A1-M6-U1",
+    "level": "A1",
+    "prompt": "There are many pharmacies.",
+    "target": "Ci sono molte farmacie.",
+    "type": "variation",
+    "targets": [
+      "existence"
+    ],
+    "grammar": [
+      "existence"
+    ],
+    "vocabulary": [
+      "ci",
+      "farmacie",
+      "molte",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U1"
+    ],
+    "status": "curated"
+  }
+]

@@ -303,8 +303,7 @@
     "grammar": [
       "avere-present",
       "possession",
-      "indefinite-article",
-      "a-casa-chunk"
+      "indefinite-article"
     ],
     "vocabulary": [
       "avere",
@@ -381,7 +380,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Loro hanno due figli."
+      "Loro hanno due figli.",
+      "Hanno 2 figli.",
+      "Loro hanno 2 figli."
     ],
     "requires": [
       "sample-preparation"
@@ -517,7 +518,9 @@
     "difficulty": 2,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Marco ha 2 fratelli."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -550,7 +553,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Loro hanno tre libri."
+      "Loro hanno tre libri.",
+      "Hanno 3 libri.",
+      "Loro hanno 3 libri."
     ],
     "requires": [
       "sample-preparation"
@@ -643,8 +648,7 @@
       "avere-present",
       "possession",
       "yes-no-question",
-      "indefinite-article",
-      "a-casa-chunk"
+      "indefinite-article"
     ],
     "vocabulary": [
       "avere",
@@ -754,7 +758,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Noi abbiamo due sorelle."
+      "Noi abbiamo due sorelle.",
+      "Abbiamo 2 sorelle.",
+      "Noi abbiamo 2 sorelle."
     ],
     "requires": [
       "sample-preparation"
@@ -856,7 +862,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Voi avete due libri."
+      "Voi avete due libri.",
+      "Avete 2 libri.",
+      "Voi avete 2 libri."
     ],
     "requires": [
       "sample-preparation"
@@ -923,7 +931,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Io ho tre figli."
+      "Io ho tre figli.",
+      "Ho 3 figli.",
+      "Io ho 3 figli."
     ],
     "requires": [
       "sample-preparation"
@@ -1013,8 +1023,7 @@
     "grammar": [
       "avere-present",
       "possession",
-      "indefinite-article",
-      "a-casa-chunk"
+      "indefinite-article"
     ],
     "vocabulary": [
       "avere",
@@ -1161,7 +1170,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Ha due libri."
+      "Ha due libri.",
+      "Lei ha 2 libri.",
+      "Ha 2 libri."
     ],
     "requires": [
       "sample-preparation"
@@ -1196,7 +1207,9 @@
     "status": "approved",
     "register": "neutral",
     "accepted_answers": [
-      "Tu hai due sorelle?"
+      "Tu hai due sorelle?",
+      "Hai 2 sorelle?",
+      "Tu hai 2 sorelle?"
     ],
     "requires": [
       "sample-preparation"
@@ -1258,7 +1271,6 @@
       "essere-present",
       "definite-article",
       "adjective-agreement",
-      "a-casa-chunk",
       "coordination"
     ],
     "vocabulary": [
@@ -1273,7 +1285,9 @@
     "difficulty": 3,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "La casa è grande e abbiamo 2 macchine."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1344,7 +1358,9 @@
     "difficulty": 3,
     "status": "approved",
     "register": "neutral",
-    "accepted_answers": [],
+    "accepted_answers": [
+      "Anna ha 2 libri italiani."
+    ],
     "requires": [
       "sample-preparation"
     ],
@@ -1405,8 +1421,7 @@
       "avere-present",
       "possession",
       "adjective-agreement",
-      "indefinite-article",
-      "a-casa-chunk"
+      "indefinite-article"
     ],
     "vocabulary": [
       "avere",
@@ -1540,8 +1555,7 @@
     "grammar": [
       "essere-present",
       "definite-article",
-      "adjective-agreement",
-      "a-casa-chunk"
+      "adjective-agreement"
     ],
     "vocabulary": [
       "essere",

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "IT-A0-M1-U1-S001",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "House.",
+    "target": "Casa.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "casa"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S002",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Evening.",
+    "target": "Sera.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "sera"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S003",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Wine.",
+    "target": "Vino.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "vino"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S004",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Name.",
+    "target": "Nome.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "nome"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S005",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "One.",
+    "target": "Uno.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "uno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S006",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Dinner.",
+    "target": "Cena.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "cena"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S007",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Who?",
+    "target": "Chi?",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model",
+      "question"
+    ],
+    "vocabulary": [
+      "chi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S008",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Cat.",
+    "target": "Gatto.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "gatto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S009",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Bathroom.",
+    "target": "Bagno.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "bagno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S010",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Family.",
+    "target": "Famiglia.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "famiglia"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S011",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "Coffee.",
+    "target": "Caffè.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "caffè"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U1-S012",
+    "unit": "A0-M1-U1",
+    "level": "A0",
+    "prompt": "City.",
+    "target": "Città.",
+    "type": "model",
+    "targets": [
+      "sound-model"
+    ],
+    "grammar": [
+      "sound-model"
+    ],
+    "vocabulary": [
+      "città"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U1"
+    ],
+    "status": "curated"
+  }
+]

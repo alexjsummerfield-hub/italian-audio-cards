@@ -1,0 +1,340 @@
+[
+  {
+    "id": "IT-A1-M5-U2-S001",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "I like music.",
+    "target": "Mi piace la musica.",
+    "type": "core",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "la",
+      "mi",
+      "musica",
+      "piace"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io mi piace la musica."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S002",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "Do you like coffee?",
+    "target": "Ti piace il caffè?",
+    "type": "core",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere",
+      "question"
+    ],
+    "vocabulary": [
+      "caffè",
+      "il",
+      "piace",
+      "ti"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M5-U2-S003",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "We like books.",
+    "target": "Ci piacciono i libri.",
+    "type": "core",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "ci",
+      "i",
+      "libri",
+      "piacciono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi ci piacciono i libri."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S004",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "Maria likes reading.",
+    "target": "A Maria piace leggere.",
+    "type": "core",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "a",
+      "leggere",
+      "maria",
+      "piace"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S005",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "I do not like tea.",
+    "target": "Non mi piace il tè.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere",
+      "negation"
+    ],
+    "vocabulary": [
+      "il",
+      "mi",
+      "non",
+      "piace",
+      "tè"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non mi piace il tè."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S006",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "Do you like films?",
+    "target": "Vi piacciono i film?",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere",
+      "question"
+    ],
+    "vocabulary": [
+      "film",
+      "i",
+      "piacciono",
+      "vi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M5-U2-S007",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "Marco likes playing football.",
+    "target": "A Marco piace giocare a calcio.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "a",
+      "calcio",
+      "giocare",
+      "marco",
+      "piace"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S008",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "She likes books.",
+    "target": "Le piacciono i libri.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "i",
+      "le",
+      "libri",
+      "piacciono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Lei le piacciono i libri."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S009",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "I like travelling.",
+    "target": "Mi piace viaggiare.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "mi",
+      "piace",
+      "viaggiare"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io mi piace viaggiare."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S010",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "They like cooking.",
+    "target": "A loro piace cucinare.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "a",
+      "cucinare",
+      "loro",
+      "piace"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro a loro piace cucinare."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S011",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "My sister likes reading, but she prefers dancing.",
+    "target": "A mia sorella piace leggere, ma preferisce ballare.",
+    "type": "integration",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere"
+    ],
+    "vocabulary": [
+      "a",
+      "ballare",
+      "leggere",
+      "ma",
+      "mia",
+      "piace",
+      "preferisce",
+      "sorella"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U2-S012",
+    "unit": "A1-M5-U2",
+    "level": "A1",
+    "prompt": "We do not like football.",
+    "target": "Non ci piace il calcio.",
+    "type": "variation",
+    "targets": [
+      "piacere"
+    ],
+    "grammar": [
+      "piacere",
+      "negation"
+    ],
+    "vocabulary": [
+      "calcio",
+      "ci",
+      "il",
+      "non",
+      "piace"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi non ci piace il calcio."
+    ],
+    "requires": [
+      "A1-M5-U2"
+    ],
+    "status": "curated"
+  }
+]

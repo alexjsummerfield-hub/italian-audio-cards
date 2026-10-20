@@ -6,6 +6,7 @@ try{
  const stored=JSON.parse(localStorage.getItem('parliamo-learning-v1')||'null');
  if(stored&&Number.isInteger(stored.sessionNumber)&&stored.records&&typeof stored.records==='object'&&!Array.isArray(stored.records))learningState=stored;
 }catch{learningSaved=false}
+let allCards=[],catalog=[],guideRequest=0;
 const synth=window.speechSynthesis;
 try{voicePreference=localStorage.getItem('parliamo-voice-v1')||'auto'}catch{}
 try{history=JSON.parse(localStorage.getItem('parliamo-history-v1')||'{}')}catch{history={}}
@@ -14,7 +15,9 @@ function recentWeight(card){const h=history[card.id]||{};const age=Date.now()-(h
 function learningWeight(card){const r=learningState.records[card.id];return (r && !Learning.isDue(r,Date.now()) ? .15 : 1)*(weakPatterns.has(Learning.patternKey(card))?2:1)}
 function sample(pool,n){return pool.map(c=>({c,k:-Math.log(Math.max(Math.random(),.000001))/(recentWeight(c)*learningWeight(c))})).sort((a,b)=>a.k-b.k).slice(0,n).map(x=>x.c)}
 function buildSession(){
- const n=Number($('length').value),first=$('mode').value==='first',now=Date.now();
+ const productionCount=bank.filter(c=>c.type!=='model').length;
+ if(!productionCount)return bank.filter(c=>c.type==='model');
+ const n=Course.sessionSize($('length').value,productionCount),first=$('mode').value==='first',now=Date.now();
  const due=Learning.dueCards(bank,learningState.records,now);
  weakPatterns=new Set(due.filter(c=>learningState.records[c.id].needsReview).map(Learning.patternKey));
  const counts=first?{core:.35,variation:.45,integration:.1,review:.1}:{core:.15,variation:.6,integration:.15,review:.1};
@@ -199,8 +202,58 @@ $('debug').onchange=()=>{$('metadata').hidden=!$('debug').checked};
 $('clear').onclick=()=>{history={};save();learningState.records={};currentAttempt=null;retryIds.clear();if(session.length)session.splice(index+1,session.length,...session.slice(index+1).filter(c=>!c._retry));$('acceptAnswer').hidden=true;$('reviewHint').textContent='';saveLearning();$('notice').textContent='Local practice and review history cleared.'};
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&running){stop();setPhase('ready','Paused · return and tap Play')}});
 if(synth){synth.onvoiceschanged=voices;voices()}else $('notice').textContent='Speech is unavailable in this browser. Use Reveal and Next to practise with text.';
-fetch('cards.json?v=20261015-dictation').then(r=>{if(!r.ok)throw Error('Bank unavailable');return r.json()}).then(cards=>{bank=cards;updateLearningSummary();$('start').disabled=!guideReady}).catch(()=>{$('start').disabled=true;$('notice').textContent='The card bank could not load. Refresh the page to try again.'});
 $('start').disabled=true;
+function updateUnitOptions(preferred){
+ const units=catalog.filter(u=>u.level===$('level').value);
+ $('unit').replaceChildren(...units.map(u=>new Option(u.id+' · '+u.title,u.id)));
+ $('unit').value=units.some(u=>u.id===preferred)?preferred:units[0].id;
+}
+async function applyCourseSelection(){
+ stop();guideReady=false;$('start').disabled=true;session=[];currentAttempt=null;
+ document.body.classList.remove('practising');$('back').hidden=true;
+ $('responseForm').hidden=true;$('answer').hidden=true;
+ for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;
+ const unit=catalog.find(u=>u.id===$('unit').value);
+ bank=Course.pool(catalog,allCards,unit.id,$('scope').value==='through');
+ $('unitCode').textContent=unit.id;$('courseTitle').textContent=unit.title;
+ $('levelBadge').textContent='ITALIAN · '+unit.level;
+ $('unitInfo').textContent=bank.length+' cards available'+(unit.level==='A2'?' · A2 testing sample':'')+'.';
+ $('scopeNote').hidden=$('scope').value!=='through';
+ $('practiceMode').hidden=!bank.some(c=>c.type==='model')||unit.model_only&&$('scope').value==='unit';
+ $('guideTitle').textContent='Preparation · '+unit.title;
+ $('prompt').textContent='Ready for '+unit.title.toLowerCase()+'.';
+ $('promptNote').hidden=true;$('progress').textContent='Ready when you are';$('bar').value=0;
+ setPhase('ready','Read the preparation first');$('notice').textContent='';
+ updateLearningSummary();
+ try{localStorage.setItem('parliamo-course-v1',JSON.stringify({unit:unit.id,scope:$('scope').value}))}catch{}
+ const request=++guideRequest;$('guideContent').textContent='Loading preparation…';
+ try{
+  const response=await fetch(unit.guide+'?v=20261020-course');
+  if(!response.ok)throw Error('Preparation unavailable');
+  const text=await response.text();if(request!==guideRequest)return;
+  renderGuide(text);guideReady=true;$('start').disabled=false;
+ }catch{
+  if(request!==guideRequest)return;
+  $('guideContent').textContent='Preparation could not load. Please reload before starting.';
+ }
+}
+$('level').onchange=()=>{updateUnitOptions();applyCourseSelection()};
+$('unit').onchange=applyCourseSelection;
+$('scope').onchange=applyCourseSelection;
+async function loadCourse(){
+ try{
+  const response=await fetch('catalog.json?v=20261020-course');if(!response.ok)throw Error();
+  catalog=await response.json();
+  const files=[...new Set(catalog.flatMap(u=>u.files))];
+  const groups=await Promise.all(files.map(async file=>{const r=await fetch(file+'?v=20261020-course');if(!r.ok)throw Error();return r.json()}));
+  allCards=groups.flat();
+  let preference={unit:'A1-M2-U2',scope:'unit'};
+  try{const saved=JSON.parse(localStorage.getItem('parliamo-course-v1')||'null');if(saved&&catalog.some(u=>u.id===saved.unit))preference=saved}catch{}
+  const selected=catalog.find(u=>u.id===preference.unit);
+  $('level').value=selected.level;$('scope').value=preference.scope==='through'?'through':'unit';
+  updateUnitOptions(selected.id);await applyCourseSelection();
+ }catch{$('notice').textContent='The course could not load. Reload the page to try again.';$('start').disabled=true}
+}
 function renderGuide(text){
  const container=$('guideContent');container.replaceChildren();
  let list=null,paragraph=[];
@@ -214,4 +267,4 @@ function renderGuide(text){
  }
  flush();
 }
-fetch('docs/preparation.md?v=20261019-readable').then(r=>{if(!r.ok)throw Error();return r.text()}).then(text=>{renderGuide(text);guideReady=true;$('start').disabled=!bank.length}).catch(()=>{$('guideContent').textContent='Preparation guide could not load. Please refresh before starting.';$('start').disabled=true});
+loadCourse();

@@ -1,0 +1,348 @@
+[
+  {
+    "id": "IT-A2-M2-U2-S001",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "Marco is taller than Anna.",
+    "target": "Marco è più alto di Anna.",
+    "type": "core",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "alto",
+      "anna",
+      "di",
+      "marco",
+      "più",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S002",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "This book is less expensive than that one.",
+    "target": "Questo libro è meno caro di quello.",
+    "type": "core",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "caro",
+      "di",
+      "libro",
+      "meno",
+      "quello",
+      "questo",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S003",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "My house is bigger than your house.",
+    "target": "La mia casa è più grande della tua casa.",
+    "type": "core",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "casa",
+      "della",
+      "grande",
+      "la",
+      "mia",
+      "più",
+      "tua",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M2-U2-S004",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "Anna is as tall as Maria.",
+    "target": "Anna è alta come Maria.",
+    "type": "core",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "alta",
+      "anna",
+      "come",
+      "maria",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Anna è alta quanto Maria."
+    ],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S005",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "This pizza is very good.",
+    "target": "Questa pizza è buonissima.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "buonissima",
+      "pizza",
+      "questa",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Questa pizza è molto buona."
+    ],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S006",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "These shoes are very expensive.",
+    "target": "Queste scarpe sono carissime.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "carissime",
+      "queste",
+      "scarpe",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S007",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "I have more than ten books.",
+    "target": "Ho più di dieci libri.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "di",
+      "dieci",
+      "ho",
+      "libri",
+      "più"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho più di dieci libri.",
+      "Ho più di 10 libri.",
+      "Io ho più di 10 libri."
+    ],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S008",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "Anna is the tallest girl in the class.",
+    "target": "Anna è la ragazza più alta della classe.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "alta",
+      "anna",
+      "classe",
+      "della",
+      "la",
+      "più",
+      "ragazza",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S009",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "This restaurant is less expensive than the café.",
+    "target": "Questo ristorante è meno caro del bar.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "bar",
+      "caro",
+      "del",
+      "meno",
+      "questo",
+      "ristorante",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S010",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "The house is very beautiful.",
+    "target": "La casa è bellissima.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "bellissima",
+      "casa",
+      "la",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "La casa è molto bella."
+    ],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S011",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "Marco is less shy than his brother.",
+    "target": "Marco è meno timido di suo fratello.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "di",
+      "fratello",
+      "marco",
+      "meno",
+      "suo",
+      "timido",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U2-S012",
+    "unit": "A2-M2-U2",
+    "level": "A2",
+    "prompt": "This book is better than that one.",
+    "target": "Questo libro è migliore di quello.",
+    "type": "variation",
+    "targets": [
+      "comparison"
+    ],
+    "grammar": [
+      "comparison"
+    ],
+    "vocabulary": [
+      "di",
+      "libro",
+      "migliore",
+      "quello",
+      "questo",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U2"
+    ],
+    "status": "curated"
+  }
+]

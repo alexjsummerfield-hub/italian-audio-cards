@@ -1,0 +1,294 @@
+[
+  {
+    "id": "IT-A0-M1-U2-S001",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Good morning.",
+    "target": "Buongiorno.",
+    "type": "core",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "buongiorno"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S002",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Good evening.",
+    "target": "Buonasera.",
+    "type": "core",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "buonasera"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S003",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Hello.",
+    "target": "Ciao.",
+    "type": "core",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "ciao"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "informal"
+  },
+  {
+    "id": "IT-A0-M1-U2-S004",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Goodbye.",
+    "target": "Arrivederci.",
+    "type": "core",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "arrivederci"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S005",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Thank you.",
+    "target": "Grazie.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "grazie"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S006",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "You are welcome.",
+    "target": "Prego.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "prego"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Tu prego."
+    ],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S007",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Please.",
+    "target": "Per favore.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "favore",
+      "per"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S008",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "My name is Anna.",
+    "target": "Mi chiamo Anna.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "anna",
+      "chiamo",
+      "mi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S009",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "Nice to meet you.",
+    "target": "Piacere.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "piacere"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A0-M1-U2-S010",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "How are you?",
+    "target": "Come stai?",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks",
+      "question"
+    ],
+    "vocabulary": [
+      "come",
+      "stai"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A0-M1-U2-S011",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "How are you?",
+    "target": "Come sta?",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks",
+      "question"
+    ],
+    "vocabulary": [
+      "come",
+      "sta"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, polite"
+  },
+  {
+    "id": "IT-A0-M1-U2-S012",
+    "unit": "A0-M1-U2",
+    "level": "A0",
+    "prompt": "I am well, thank you.",
+    "target": "Sto bene, grazie.",
+    "type": "variation",
+    "targets": [
+      "social-chunks"
+    ],
+    "grammar": [
+      "social-chunks"
+    ],
+    "vocabulary": [
+      "bene",
+      "grazie",
+      "sto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io sto bene, grazie."
+    ],
+    "requires": [
+      "A0-M1-U2"
+    ],
+    "status": "curated"
+  }
+]

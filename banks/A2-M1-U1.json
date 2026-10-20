@@ -1,0 +1,345 @@
+[
+  {
+    "id": "IT-A2-M1-U1-S001",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Yesterday I spoke with Anna.",
+    "target": "Ieri ho parlato con Anna.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "anna",
+      "con",
+      "ho",
+      "ieri",
+      "parlato"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S002",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Yesterday we worked.",
+    "target": "Ieri abbiamo lavorato.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "ieri",
+      "lavorato"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S003",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Marco read a book yesterday.",
+    "target": "Marco ha letto un libro ieri.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "ha",
+      "ieri",
+      "letto",
+      "libro",
+      "marco",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S004",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "I wrote a letter yesterday.",
+    "target": "Ho scritto una lettera ieri.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "ho",
+      "ieri",
+      "lettera",
+      "scritto",
+      "una"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io ho scritto una lettera ieri."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S005",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "We had breakfast this morning.",
+    "target": "Abbiamo fatto colazione stamattina.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "colazione",
+      "fatto",
+      "stamattina"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi abbiamo fatto colazione stamattina."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S006",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Did you sleep well?",
+    "target": "Hai dormito bene?",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere",
+      "question"
+    ],
+    "vocabulary": [
+      "bene",
+      "dormito",
+      "hai"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M1-U1-S007",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "They drank a coffee.",
+    "target": "Hanno bevuto un caffè.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "bevuto",
+      "caffè",
+      "hanno",
+      "un"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro hanno bevuto un caffè."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S008",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "I did not study yesterday.",
+    "target": "Non ho studiato ieri.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere",
+      "negation"
+    ],
+    "vocabulary": [
+      "ho",
+      "ieri",
+      "non",
+      "studiato"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non ho studiato ieri."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S009",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Anna bought two books last week.",
+    "target": "Anna ha comprato due libri la settimana scorsa.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "anna",
+      "comprato",
+      "due",
+      "ha",
+      "la",
+      "libri",
+      "scorsa",
+      "settimana"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Anna ha comprato 2 libri la settimana scorsa."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S010",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "What did you do yesterday?",
+    "target": "Che cosa avete fatto ieri?",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere",
+      "question"
+    ],
+    "vocabulary": [
+      "avete",
+      "che",
+      "cosa",
+      "fatto",
+      "ieri"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Cosa avete fatto ieri?"
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A2-M1-U1-S011",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "We took the train yesterday.",
+    "target": "Abbiamo preso il treno ieri.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "ieri",
+      "il",
+      "preso",
+      "treno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi abbiamo preso il treno ieri."
+    ],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U1-S012",
+    "unit": "A2-M1-U1",
+    "level": "A2",
+    "prompt": "Yesterday I ate a pizza and drank a beer.",
+    "target": "Ieri ho mangiato una pizza e ho bevuto una birra.",
+    "type": "integration",
+    "targets": [
+      "passato-prossimo-avere"
+    ],
+    "grammar": [
+      "passato-prossimo-avere"
+    ],
+    "vocabulary": [
+      "bevuto",
+      "birra",
+      "e",
+      "ho",
+      "ieri",
+      "mangiato",
+      "pizza",
+      "una"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U1"
+    ],
+    "status": "curated"
+  }
+]

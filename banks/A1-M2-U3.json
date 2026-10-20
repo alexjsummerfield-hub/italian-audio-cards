@@ -1,0 +1,333 @@
+[
+  {
+    "id": "IT-A1-M2-U3-S001",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "My house is big.",
+    "target": "La mia casa è grande.",
+    "type": "core",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "casa",
+      "grande",
+      "la",
+      "mia",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S002",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Your book is here.",
+    "target": "Il tuo libro è qui.",
+    "type": "core",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "il",
+      "libro",
+      "qui",
+      "tuo",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M2-U3-S003",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "His car is small.",
+    "target": "La sua macchina è piccola.",
+    "type": "core",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "la",
+      "macchina",
+      "piccola",
+      "sua",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S004",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Her brother is a teacher.",
+    "target": "Suo fratello è insegnante.",
+    "type": "core",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "fratello",
+      "insegnante",
+      "suo",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S005",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Our children are students.",
+    "target": "I nostri figli sono studenti.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "figli",
+      "i",
+      "nostri",
+      "sono",
+      "studenti"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "male or mixed children"
+  },
+  {
+    "id": "IT-A1-M2-U3-S006",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Their mother is French.",
+    "target": "La loro madre è francese.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "francese",
+      "la",
+      "loro",
+      "madre",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S007",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "My sisters are in Italy.",
+    "target": "Le mie sorelle sono in Italia.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "in",
+      "italia",
+      "le",
+      "mie",
+      "sono",
+      "sorelle"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S008",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Our daughters have three books.",
+    "target": "Le nostre figlie hanno tre libri.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "figlie",
+      "hanno",
+      "le",
+      "libri",
+      "nostre",
+      "tre"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Le nostre figlie hanno 3 libri."
+    ],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S009",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Your houses are big.",
+    "target": "Le vostre case sono grandi.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "case",
+      "grandi",
+      "le",
+      "sono",
+      "vostre"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "several owners"
+  },
+  {
+    "id": "IT-A1-M2-U3-S010",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Anna's book is here.",
+    "target": "Il libro di Anna è qui.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "anna",
+      "di",
+      "il",
+      "libro",
+      "qui",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S011",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "My male friend is Australian.",
+    "target": "Il mio amico è australiano.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "amico",
+      "australiano",
+      "il",
+      "mio",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U3-S012",
+    "unit": "A1-M2-U3",
+    "level": "A1",
+    "prompt": "Their cars are small.",
+    "target": "Le loro macchine sono piccole.",
+    "type": "variation",
+    "targets": [
+      "possessives"
+    ],
+    "grammar": [
+      "possessives"
+    ],
+    "vocabulary": [
+      "le",
+      "loro",
+      "macchine",
+      "piccole",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U3"
+    ],
+    "status": "curated"
+  }
+]

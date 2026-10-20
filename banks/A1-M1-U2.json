@@ -1,0 +1,325 @@
+[
+  {
+    "id": "IT-A1-M1-U2-S001",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "I am from Rome.",
+    "target": "Sono di Roma.",
+    "type": "core",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "di",
+      "roma",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io sono di Roma."
+    ],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S002",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "We are in Australia.",
+    "target": "Siamo in Australia.",
+    "type": "core",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "australia",
+      "in",
+      "siamo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi siamo in Australia."
+    ],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S003",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Marco is in Milan.",
+    "target": "Marco è a Milano.",
+    "type": "core",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "a",
+      "marco",
+      "milano",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S004",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Anna is from Sydney.",
+    "target": "Anna è di Sydney.",
+    "type": "core",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "anna",
+      "di",
+      "sydney",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S005",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Where are you?",
+    "target": "Dove sei?",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "question"
+    ],
+    "vocabulary": [
+      "dove",
+      "sei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M1-U2-S006",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Where are you from?",
+    "target": "Di dove sei?",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "question"
+    ],
+    "vocabulary": [
+      "di",
+      "dove",
+      "sei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M1-U2-S007",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Where are you?",
+    "target": "Dove siete?",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "question"
+    ],
+    "vocabulary": [
+      "dove",
+      "siete"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M1-U2-S008",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Who is she?",
+    "target": "Chi è lei?",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "question"
+    ],
+    "vocabulary": [
+      "chi",
+      "lei",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S009",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "They are not here.",
+    "target": "Loro non sono qui.",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "negation"
+    ],
+    "vocabulary": [
+      "loro",
+      "non",
+      "qui",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Non sono qui."
+    ],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S010",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "We are in Tuscany.",
+    "target": "Siamo in Toscana.",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "in",
+      "siamo",
+      "toscana"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo in Toscana."
+    ],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S011",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Anna is from Rome, but she is in Milan.",
+    "target": "Anna è di Roma, ma è a Milano.",
+    "type": "integration",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location"
+    ],
+    "vocabulary": [
+      "a",
+      "anna",
+      "di",
+      "ma",
+      "milano",
+      "roma",
+      "è"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U2-S012",
+    "unit": "A1-M1-U2",
+    "level": "A1",
+    "prompt": "Are you in Italy?",
+    "target": "Siete in Italia?",
+    "type": "variation",
+    "targets": [
+      "origin-location"
+    ],
+    "grammar": [
+      "origin-location",
+      "question"
+    ],
+    "vocabulary": [
+      "in",
+      "italia",
+      "siete"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  }
+]

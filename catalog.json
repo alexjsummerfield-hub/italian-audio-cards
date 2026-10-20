@@ -1,0 +1,800 @@
+[
+  {
+    "id": "A0-M1-U1",
+    "level": "A0",
+    "title": "Sounds and spelling",
+    "guide": "guides/A0-M1-U1.md",
+    "files": [
+      "banks/A0-M1-U1.json"
+    ],
+    "order": 0,
+    "prerequisites": [],
+    "cards": 12,
+    "production_cards": 0,
+    "model_only": true
+  },
+  {
+    "id": "A0-M1-U2",
+    "level": "A0",
+    "title": "Greetings and social contact",
+    "guide": "guides/A0-M1-U2.md",
+    "files": [
+      "banks/A0-M1-U2.json"
+    ],
+    "order": 1,
+    "prerequisites": [
+      "A0-M1-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M1-U1",
+    "level": "A1",
+    "title": "Identity and essere",
+    "guide": "guides/A1-M1-U1.md",
+    "files": [
+      "banks/A1-M1-U1.json"
+    ],
+    "order": 2,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M1-U2",
+    "level": "A1",
+    "title": "Origin and basic questions",
+    "guide": "guides/A1-M1-U2.md",
+    "files": [
+      "banks/A1-M1-U2.json"
+    ],
+    "order": 3,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M2-U1",
+    "level": "A1",
+    "title": "Nouns and articles",
+    "guide": "guides/A1-M2-U1.md",
+    "files": [
+      "banks/A1-M2-U1.json"
+    ],
+    "order": 4,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M2-U2",
+    "level": "A1",
+    "title": "Avere and possession",
+    "guide": "guides/A1-M2-U2.md",
+    "files": [
+      "cards.json",
+      "banks/A1-M2-U2.json"
+    ],
+    "order": 5,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1"
+    ],
+    "cards": 60,
+    "production_cards": 53,
+    "model_only": false
+  },
+  {
+    "id": "A1-M2-U3",
+    "level": "A1",
+    "title": "Possessives",
+    "guide": "guides/A1-M2-U3.md",
+    "files": [
+      "banks/A1-M2-U3.json"
+    ],
+    "order": 6,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M3-U1",
+    "level": "A1",
+    "title": "Regular are verbs",
+    "guide": "guides/A1-M3-U1.md",
+    "files": [
+      "banks/A1-M3-U1.json"
+    ],
+    "order": 7,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M3-U2",
+    "level": "A1",
+    "title": "Ere and ire verbs",
+    "guide": "guides/A1-M3-U2.md",
+    "files": [
+      "banks/A1-M3-U2.json"
+    ],
+    "order": 8,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M3-U3",
+    "level": "A1",
+    "title": "Essential irregular verbs",
+    "guide": "guides/A1-M3-U3.md",
+    "files": [
+      "banks/A1-M3-U3.json"
+    ],
+    "order": 9,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M4-U1",
+    "level": "A1",
+    "title": "Time and frequency",
+    "guide": "guides/A1-M4-U1.md",
+    "files": [
+      "banks/A1-M4-U1.json"
+    ],
+    "order": 10,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M4-U2",
+    "level": "A1",
+    "title": "Reflexive routines",
+    "guide": "guides/A1-M4-U2.md",
+    "files": [
+      "banks/A1-M4-U2.json"
+    ],
+    "order": 11,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M5-U1",
+    "level": "A1",
+    "title": "Volere potere and dovere",
+    "guide": "guides/A1-M5-U1.md",
+    "files": [
+      "banks/A1-M5-U1.json"
+    ],
+    "order": 12,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M5-U2",
+    "level": "A1",
+    "title": "Piacere",
+    "guide": "guides/A1-M5-U2.md",
+    "files": [
+      "banks/A1-M5-U2.json"
+    ],
+    "order": 13,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M6-U1",
+    "level": "A1",
+    "title": "Places and c'è or ci sono",
+    "guide": "guides/A1-M6-U1.md",
+    "files": [
+      "banks/A1-M6-U1.json"
+    ],
+    "order": 14,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M6-U2",
+    "level": "A1",
+    "title": "Prepositions and location",
+    "guide": "guides/A1-M6-U2.md",
+    "files": [
+      "banks/A1-M6-U2.json"
+    ],
+    "order": 15,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M6-U3",
+    "level": "A1",
+    "title": "Transport and directions",
+    "guide": "guides/A1-M6-U3.md",
+    "files": [
+      "banks/A1-M6-U3.json"
+    ],
+    "order": 16,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M7-U1",
+    "level": "A1",
+    "title": "Food and ordering",
+    "guide": "guides/A1-M7-U1.md",
+    "files": [
+      "banks/A1-M7-U1.json"
+    ],
+    "order": 17,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M7-U2",
+    "level": "A1",
+    "title": "Shopping and prices",
+    "guide": "guides/A1-M7-U2.md",
+    "files": [
+      "banks/A1-M7-U2.json"
+    ],
+    "order": 18,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A1-M7-U3",
+    "level": "A1",
+    "title": "Polite requests",
+    "guide": "guides/A1-M7-U3.md",
+    "files": [
+      "banks/A1-M7-U3.json"
+    ],
+    "order": 19,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M1-U1",
+    "level": "A2",
+    "title": "Completed events with avere",
+    "guide": "guides/A2-M1-U1.md",
+    "files": [
+      "banks/A2-M1-U1.json"
+    ],
+    "order": 20,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M1-U2",
+    "level": "A2",
+    "title": "Completed events with essere",
+    "guide": "guides/A2-M1-U2.md",
+    "files": [
+      "banks/A2-M1-U2.json"
+    ],
+    "order": 21,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M1-U3",
+    "level": "A2",
+    "title": "Past habits and background: imperfetto",
+    "guide": "guides/A2-M1-U3.md",
+    "files": [
+      "banks/A2-M1-U3.json"
+    ],
+    "order": 22,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M2-U1",
+    "level": "A2",
+    "title": "Describing people",
+    "guide": "guides/A2-M2-U1.md",
+    "files": [
+      "banks/A2-M2-U1.json"
+    ],
+    "order": 23,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2",
+      "A2-M1-U3"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M2-U2",
+    "level": "A2",
+    "title": "Comparisons and superlatives",
+    "guide": "guides/A2-M2-U2.md",
+    "files": [
+      "banks/A2-M2-U2.json"
+    ],
+    "order": 24,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2",
+      "A2-M1-U3",
+      "A2-M2-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M3-U1",
+    "level": "A2",
+    "title": "Future plans: futuro semplice",
+    "guide": "guides/A2-M3-U1.md",
+    "files": [
+      "banks/A2-M3-U1.json"
+    ],
+    "order": 25,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2",
+      "A2-M1-U3",
+      "A2-M2-U1",
+      "A2-M2-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M3-U2",
+    "level": "A2",
+    "title": "Completed obligations and possibilities",
+    "guide": "guides/A2-M3-U2.md",
+    "files": [
+      "banks/A2-M3-U2.json"
+    ],
+    "order": 26,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2",
+      "A2-M1-U3",
+      "A2-M2-U1",
+      "A2-M2-U2",
+      "A2-M3-U1"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  },
+  {
+    "id": "A2-M4-U1",
+    "level": "A2",
+    "title": "Health and how you feel",
+    "guide": "guides/A2-M4-U1.md",
+    "files": [
+      "banks/A2-M4-U1.json"
+    ],
+    "order": 27,
+    "prerequisites": [
+      "A0-M1-U1",
+      "A0-M1-U2",
+      "A1-M1-U1",
+      "A1-M1-U2",
+      "A1-M2-U1",
+      "A1-M2-U2",
+      "A1-M2-U3",
+      "A1-M3-U1",
+      "A1-M3-U2",
+      "A1-M3-U3",
+      "A1-M4-U1",
+      "A1-M4-U2",
+      "A1-M5-U1",
+      "A1-M5-U2",
+      "A1-M6-U1",
+      "A1-M6-U2",
+      "A1-M6-U3",
+      "A1-M7-U1",
+      "A1-M7-U2",
+      "A1-M7-U3",
+      "A2-M1-U1",
+      "A2-M1-U2",
+      "A2-M1-U3",
+      "A2-M2-U1",
+      "A2-M2-U2",
+      "A2-M3-U1",
+      "A2-M3-U2"
+    ],
+    "cards": 12,
+    "production_cards": 12,
+    "model_only": false
+  }
+]

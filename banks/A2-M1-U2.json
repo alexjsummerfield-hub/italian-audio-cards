@@ -1,0 +1,346 @@
+[
+  {
+    "id": "IT-A2-M1-U2-S001",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Yesterday I went to Rome.",
+    "target": "Ieri sono andata a Roma.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "a",
+      "andata",
+      "ieri",
+      "roma",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a woman speaking"
+  },
+  {
+    "id": "IT-A2-M1-U2-S002",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Yesterday I went home.",
+    "target": "Ieri sono andato a casa.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "a",
+      "andato",
+      "casa",
+      "ieri",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A2-M1-U2-S003",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Anna arrived early.",
+    "target": "Anna è arrivata presto.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "anna",
+      "arrivata",
+      "presto",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U2-S004",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Marco left yesterday.",
+    "target": "Marco è partito ieri.",
+    "type": "core",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "ieri",
+      "marco",
+      "partito",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U2-S005",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "We came back yesterday evening.",
+    "target": "Siamo tornate ieri sera.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "ieri",
+      "sera",
+      "siamo",
+      "tornate"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo tornate ieri sera."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "an all-female group"
+  },
+  {
+    "id": "IT-A2-M1-U2-S006",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "They went to the museum.",
+    "target": "Sono andati al museo.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "al",
+      "andati",
+      "museo",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro sono andati al museo."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  },
+  {
+    "id": "IT-A2-M1-U2-S007",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Did you leave early?",
+    "target": "Sei partita presto?",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere",
+      "question"
+    ],
+    "vocabulary": [
+      "partita",
+      "presto",
+      "sei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "speaking informally to one woman"
+  },
+  {
+    "id": "IT-A2-M1-U2-S008",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "We stayed at home yesterday.",
+    "target": "Siamo rimasti a casa ieri.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "a",
+      "casa",
+      "ieri",
+      "rimasti",
+      "siamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo rimasti a casa ieri."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  },
+  {
+    "id": "IT-A2-M1-U2-S009",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Anna got up late.",
+    "target": "Anna si è alzata tardi.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "alzata",
+      "anna",
+      "si",
+      "tardi",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U2-S010",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "I woke up at seven.",
+    "target": "Mi sono svegliato alle sette.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "alle",
+      "mi",
+      "sette",
+      "sono",
+      "svegliato"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io mi sono svegliato alle sette.",
+      "Mi sono svegliato alle 7.",
+      "Io mi sono svegliato alle 7."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A2-M1-U2-S011",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "We got dressed early.",
+    "target": "Ci siamo vestite presto.",
+    "type": "variation",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "ci",
+      "presto",
+      "siamo",
+      "vestite"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi ci siamo vestite presto."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "an all-female group"
+  },
+  {
+    "id": "IT-A2-M1-U2-S012",
+    "unit": "A2-M1-U2",
+    "level": "A2",
+    "prompt": "Anna arrived at eight and Marco left at nine.",
+    "target": "Anna è arrivata alle otto e Marco è partito alle nove.",
+    "type": "integration",
+    "targets": [
+      "passato-prossimo-essere"
+    ],
+    "grammar": [
+      "passato-prossimo-essere"
+    ],
+    "vocabulary": [
+      "alle",
+      "anna",
+      "arrivata",
+      "e",
+      "marco",
+      "nove",
+      "otto",
+      "partito",
+      "è"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [
+      "Anna è arrivata alle 8 e Marco è partito alle 9."
+    ],
+    "requires": [
+      "A2-M1-U2"
+    ],
+    "status": "curated"
+  }
+]

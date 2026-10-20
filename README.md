@@ -1,37 +1,34 @@
-# Parliamo · Italian audio cards
+# Parliamo · Italian audio practice
 
-A buildless, mobile-first GitHub Pages prototype for **A1-M2-U2: AVERE & possession**, based on the agreed Sentence Bank / Audio Practice Specification v1.0. Concepts repeat. Sentences vary.
+A mobile-first GitHub Pages testing app based on AF-LCS: **Concepts repeat. Sentences vary.**
 
-## Use
+384 cards across 28 units: **A0 24**, **A1 264**, **A2 96**. All 20 A0/A1 Companion Guide units are represented; eight additional A2 topic samples extend testing into past narration, descriptions, comparisons, future plans, past modals and health expressions. This is a testing bank, not a complete A2 course or certification.
 
-Read the preparation guide, choose first or later practice and a session length, then start. Tap **Play** for English → thinking pause → Italian → repeat pause. **Pause** stops audio and timers; Play restarts that card. **Reveal** shows the answer silently. **Repeat** plays Italian again. **Next** advances. Optional continuous playback remains off by default. Keep the page foregrounded; changing tabs pauses playback.
+## Practise
 
-48 cards across all six types. First practice prepends seven MODEL cards; selected length counts production cards. Session selection balances types and downweights recent exposures stored only in this browser. Base sessions have unique cards; missed cards may return as spaced retries. History can be cleared in settings. No account, microphone, speech recognition or scoring.
+Choose Level and Unit. Read that unit's Preparation. Select either the unit alone or cumulative practice through that unit. Cumulative practice assumes earlier preparation has been read; future units are excluded.
 
-Italian voice availability and pronunciation depend on browser/device settings. Voice selection and slower playback are available. If speech fails, text practice remains usable. Real-device iPhone/Android audio testing is still needed; do not assume background or lock-screen playback.
+Start and Next automatically play the English prompt. Dictate using the iPhone's Italian keyboard, or type into the focused field. Return submits. The app compares your text and plays Italian after the configurable post-dictation pause. Reveal shows the answer silently; Repeat replays Italian. It waits for Next and keeps the card count and controls in the visible phone area above the keyboard. Setup returns to the unit selection.
 
-## Iterate
+A0 Sounds uses listen-and-repeat models only. Production sessions use up to the selected number of available cards. Optional models are extra where available; same-session learning retries can add up to six cards.
 
-- `cards.json`: stable IDs, prompts, targets, accepted alternatives, type, unit, grammar, vocabulary, difficulty and editorial status.
-- `docs/preparation.md`: explicit prerequisite contract for this standalone sample.
-- `docs/content-notes.md`: pedagogical scope and editorial assumptions.
-- `app.js`: simple session selection and audio lifecycle.
-- `style.css` / `index.html`: responsive UI.
+## Reviews
 
-Enable GitHub Pages from `main`, `/ (root)`. No build or dependencies. Local preview: `python3 -m http.server 8000` from this directory, then open http://localhost:8000. Opening index.html directly may block JSON loading.
+First-attempt mismatches and assisted answers remain due. A miss can return after three intervening cards. A related sentence may be moved into the gap. Due cards are prioritized next session; successful due reviews in later sessions use 1, 3, 7, 14 and 30 day intervals. Accept my answer reverses a false-mismatch penalty for that presentation. Rechecking cannot inflate successes. No typed/dictated answer text is stored.
 
-The full source companion guide was unavailable; this prototype introduces all required items in its preparation guide rather than claiming verified alignment to the full course. Content is curated and internally checked; further native-speaker editorial review is welcome.
+Reviews and exposure history are local to this browser/device, without sync. Changing levels does not erase history. Clearing local practice history resets it across all units. Voice preference is separate. See docs/review-rules.md.
 
-On phones, an active session uses the visible area above the software keyboard. The card count and controls stay visible while the card body scrolls. **Setup** returns to session settings. Browser toolbar and keyboard changes are tracked through the Visual Viewport API when available.
+## Audio
 
-Audio waits 1.5 seconds after Return so keyboard dictation can release audio. The pause is adjustable in Audio & review settings. Next, Pause, Setup and changing browser visibility cancel pending playback. Automatic voice selection prefers Alice; an explicitly selected voice is saved locally. Duplicate names receive separate numbers and any Compact/Enhanced/Premium hints present in the voice identifier. When no quality hint is exposed, the app reports quality as unknown.
+Italian uses device speech synthesis. Automatic selection prefers Alice. Refresh voices and Preview Italian voice allow testing what the browser exposes; higher-quality installed voices may not be exposed by Safari. Duplicate names have distinct labels and quality hints where reported. The 1.5-second pause after Return is adjustable. Keep the page foregrounded.
 
-The preparation guide renders headings, paragraphs and individual vocabulary rows from its Markdown source.
+## Iterate and verify
 
-## Learning reviews
+- catalog.json: levels, unit order, guide and bank paths.
+- cards.json: original 48 stable cards; banks/: additional cards.
+- guides/: readable preparation for each unit.
+- app.js / course.js: UI, course eligibility and audio.
+- scheduler.js: local review rules.
+- docs/expansion-notes.md: source provenance and limitations.
 
-The app now remembers first-attempt outcomes in this browser. Missed/assisted cards are due again next session; when space allows, a missed card also returns after three intervening cards (up to six extra retries). Related sentences are used for pattern reinforcement. Due cards take priority over the usual randomized mix. Successful due reviews in later sessions move through 1, 3, 7, 14 and 30 day intervals.
-
-After a mismatch, **Accept my answer** removes that attempt’s penalty and treats it as self-assessed success. It does not permanently add the transcription as a valid translation. Rechecking after the model appears does not create extra successes. Clearing local practice history resets reviews as well. No answer text is saved and reviews do not sync across devices.
-
-See `docs/review-rules.md` for exact limits and edge cases. Run `node tests/review.test.cjs` to verify scheduling, retry spacing, override behavior and persistence.
+Run `node tests/review.test.cjs` and `node tests/course.test.cjs`. No build or external dependencies. Local preview: `python3 -m http.server 8000`; open http://localhost:8000. GitHub Pages serves main, root. Opening index.html as a file can block data loading.

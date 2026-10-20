@@ -54,3 +54,7 @@
 #reviewHint{font-size:13px;color:#51665c;margin:6px 0}
 #reviewHint:empty{display:none}
 #acceptAnswer{min-height:44px;padding:8px 12px;font-size:14px;width:auto;margin-top:6px}
+
+.course-picker{margin:16px 0;padding:16px 0;border-top:1px solid var(--line)}
+.course-picker label{margin-bottom:6px}
+#unitInfo,#scopeNote{font-size:14px;color:#51665c}

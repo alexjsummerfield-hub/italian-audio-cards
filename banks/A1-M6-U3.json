@@ -1,0 +1,341 @@
+[
+  {
+    "id": "IT-A1-M6-U3-S001",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "I take the bus.",
+    "target": "Prendo l'autobus.",
+    "type": "core",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "l'autobus",
+      "prendo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io prendo l'autobus."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S002",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "We go to Rome by train.",
+    "target": "Andiamo a Roma in treno.",
+    "type": "core",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "a",
+      "andiamo",
+      "in",
+      "roma",
+      "treno"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi andiamo a Roma in treno."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S003",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "The train leaves at eight.",
+    "target": "Il treno parte alle otto.",
+    "type": "core",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "alle",
+      "il",
+      "otto",
+      "parte",
+      "treno"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Il treno parte alle 8."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S004",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "The train arrives at ten.",
+    "target": "Il treno arriva alle dieci.",
+    "type": "core",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "alle",
+      "arriva",
+      "dieci",
+      "il",
+      "treno"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Il treno arriva alle 10."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S005",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "What time does the train leave?",
+    "target": "A che ora parte il treno?",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport",
+      "question"
+    ],
+    "vocabulary": [
+      "a",
+      "che",
+      "il",
+      "ora",
+      "parte",
+      "treno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S006",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "We go on foot.",
+    "target": "Andiamo a piedi.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "a",
+      "andiamo",
+      "piedi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi andiamo a piedi."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S007",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "I have a ticket to Milan.",
+    "target": "Ho un biglietto per Milano.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "biglietto",
+      "ho",
+      "milano",
+      "per",
+      "un"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho un biglietto per Milano."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S008",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "The train leaves from track two at nine.",
+    "target": "Il treno parte dal binario due alle nove.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "alle",
+      "binario",
+      "dal",
+      "due",
+      "il",
+      "nove",
+      "parte",
+      "treno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Il treno parte dal binario 2 alle 9."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S009",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "We have to go from the station to the museum on foot.",
+    "target": "Dobbiamo andare dalla stazione al museo a piedi.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "a",
+      "al",
+      "andare",
+      "dalla",
+      "dobbiamo",
+      "museo",
+      "piedi",
+      "stazione"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi dobbiamo andare dalla stazione al museo a piedi."
+    ],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M6-U3-S010",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "Go straight ahead.",
+    "target": "Vada dritto.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "dritto",
+      "vada"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a polite direction"
+  },
+  {
+    "id": "IT-A1-M6-U3-S011",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "Turn right.",
+    "target": "Giri a destra.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "a",
+      "destra",
+      "giri"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a polite direction"
+  },
+  {
+    "id": "IT-A1-M6-U3-S012",
+    "unit": "A1-M6-U3",
+    "level": "A1",
+    "prompt": "Turn left.",
+    "target": "Giri a sinistra.",
+    "type": "variation",
+    "targets": [
+      "transport"
+    ],
+    "grammar": [
+      "transport"
+    ],
+    "vocabulary": [
+      "a",
+      "giri",
+      "sinistra"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M6-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a polite direction"
+  }
+]

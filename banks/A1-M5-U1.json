@@ -1,0 +1,333 @@
+[
+  {
+    "id": "IT-A1-M5-U1-S001",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "We want to study.",
+    "target": "Vogliamo studiare.",
+    "type": "core",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "studiare",
+      "vogliamo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi vogliamo studiare."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S002",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "I have to go home.",
+    "target": "Devo andare a casa.",
+    "type": "core",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "a",
+      "andare",
+      "casa",
+      "devo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io devo andare a casa."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S003",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "Anna wants to read.",
+    "target": "Anna vuole leggere.",
+    "type": "core",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "leggere",
+      "vuole"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S004",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "We can leave tomorrow.",
+    "target": "Possiamo partire domani.",
+    "type": "core",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "domani",
+      "partire",
+      "possiamo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi possiamo partire domani."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "it is possible"
+  },
+  {
+    "id": "IT-A1-M5-U1-S005",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "Can you repeat?",
+    "target": "Può ripetere?",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present",
+      "question"
+    ],
+    "vocabulary": [
+      "può",
+      "ripetere"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, polite"
+  },
+  {
+    "id": "IT-A1-M5-U1-S006",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "I cannot come today.",
+    "target": "Non posso venire oggi.",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "non",
+      "oggi",
+      "posso",
+      "venire"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non posso venire oggi."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S007",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "They have to work.",
+    "target": "Devono lavorare.",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "devono",
+      "lavorare"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro devono lavorare."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S008",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "Do you want a coffee?",
+    "target": "Vuoi un caffè?",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present",
+      "question"
+    ],
+    "vocabulary": [
+      "caffè",
+      "un",
+      "vuoi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M5-U1-S009",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "We have to get up early.",
+    "target": "Dobbiamo alzarci presto.",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "alzarci",
+      "dobbiamo",
+      "presto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi dobbiamo alzarci presto."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S010",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "My brother has to get up at six.",
+    "target": "Mio fratello deve alzarsi alle sei.",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present"
+    ],
+    "vocabulary": [
+      "alle",
+      "alzarsi",
+      "deve",
+      "fratello",
+      "mio",
+      "sei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Mio fratello deve alzarsi alle 6."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M5-U1-S011",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "Do you want to come to Rome?",
+    "target": "Volete venire a Roma?",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present",
+      "question"
+    ],
+    "vocabulary": [
+      "a",
+      "roma",
+      "venire",
+      "volete"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M5-U1-S012",
+    "unit": "A1-M5-U1",
+    "level": "A1",
+    "prompt": "I know how to read, but I cannot read today.",
+    "target": "So leggere, ma non posso leggere oggi.",
+    "type": "variation",
+    "targets": [
+      "modal-present"
+    ],
+    "grammar": [
+      "modal-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "leggere",
+      "ma",
+      "non",
+      "oggi",
+      "posso",
+      "so"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io so leggere, ma non posso leggere oggi."
+    ],
+    "requires": [
+      "A1-M5-U1"
+    ],
+    "status": "curated"
+  }
+]

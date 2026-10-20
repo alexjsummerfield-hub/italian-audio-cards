@@ -1,0 +1,346 @@
+[
+  {
+    "id": "IT-A1-M2-U2-S049",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "We have a dog.",
+    "target": "Abbiamo un cane.",
+    "type": "core",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "cane",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi abbiamo un cane."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S050",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "Do you have time?",
+    "target": "Ha tempo?",
+    "type": "core",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "question"
+    ],
+    "vocabulary": [
+      "ha",
+      "tempo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, polite"
+  },
+  {
+    "id": "IT-A1-M2-U2-S051",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "I am thirty years old.",
+    "target": "Ho trent'anni.",
+    "type": "core",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "ho",
+      "trent'anni"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io ho trent'anni.",
+      "Ho 30 anni.",
+      "Io ho 30 anni."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S052",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "Anna is twenty years old.",
+    "target": "Anna ha vent'anni.",
+    "type": "core",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "ha",
+      "vent'anni"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Anna ha 20 anni."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S053",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "Marco is forty years old.",
+    "target": "Marco ha quarant'anni.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "ha",
+      "marco",
+      "quarant'anni"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Marco ha 40 anni."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S054",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "How old are you?",
+    "target": "Quanti anni hai?",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "question"
+    ],
+    "vocabulary": [
+      "anni",
+      "hai",
+      "quanti"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M2-U2-S055",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "We have two daughters.",
+    "target": "Abbiamo due figlie.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "due",
+      "figlie"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi abbiamo due figlie.",
+      "Abbiamo 2 figlie.",
+      "Noi abbiamo 2 figlie."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S056",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "They have three dogs.",
+    "target": "Hanno tre cani.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "cani",
+      "hanno",
+      "tre"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro hanno tre cani.",
+      "Hanno 3 cani.",
+      "Loro hanno 3 cani."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S057",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "Anna is fifty years old.",
+    "target": "Anna ha cinquant'anni.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "cinquant'anni",
+      "ha"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Anna ha 50 anni."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S058",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "I do not have brothers.",
+    "target": "Non ho fratelli.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "fratelli",
+      "ho",
+      "non"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non ho fratelli."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M2-U2-S059",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "Do you have sisters?",
+    "target": "Avete sorelle?",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present",
+      "question"
+    ],
+    "vocabulary": [
+      "avete",
+      "sorelle"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M2-U2-S060",
+    "unit": "A1-M2-U2",
+    "level": "A1",
+    "prompt": "I am thirty years old and have two daughters.",
+    "target": "Ho trent'anni e ho due figlie.",
+    "type": "variation",
+    "targets": [
+      "avere-present",
+      "possession"
+    ],
+    "grammar": [
+      "avere-present"
+    ],
+    "vocabulary": [
+      "due",
+      "e",
+      "figlie",
+      "ho",
+      "trent'anni"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io ho trent'anni e ho due figlie.",
+      "Ho 30 anni e ho 2 figlie.",
+      "Io ho 30 anni e ho 2 figlie."
+    ],
+    "requires": [
+      "A1-M2-U2"
+    ],
+    "status": "curated"
+  }
+]

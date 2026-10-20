@@ -1,0 +1,326 @@
+[
+  {
+    "id": "IT-A1-M3-U1-S001",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "I speak Italian.",
+    "target": "Parlo italiano.",
+    "type": "core",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "italiano",
+      "parlo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io parlo italiano."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S002",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "We work today.",
+    "target": "Lavoriamo oggi.",
+    "type": "core",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "lavoriamo",
+      "oggi"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi lavoriamo oggi."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S003",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "Anna lives in Rome.",
+    "target": "Anna abita a Roma.",
+    "type": "core",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "a",
+      "abita",
+      "anna",
+      "roma"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S004",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "They study French.",
+    "target": "Studiano francese.",
+    "type": "core",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "francese",
+      "studiano"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Loro studiano francese."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S005",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "Do you work today?",
+    "target": "Lavori oggi?",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present",
+      "question"
+    ],
+    "vocabulary": [
+      "lavori",
+      "oggi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M3-U1-S006",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "What do you study?",
+    "target": "Che cosa studiate?",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present",
+      "question"
+    ],
+    "vocabulary": [
+      "che",
+      "cosa",
+      "studiate"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Cosa studiate?"
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M3-U1-S007",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "I do not speak French.",
+    "target": "Non parlo francese.",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "francese",
+      "non",
+      "parlo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non parlo francese."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S008",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "We live in Australia.",
+    "target": "Abitiamo in Australia.",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "abitiamo",
+      "australia",
+      "in"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi abitiamo in Australia."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S009",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "Marco listens to music.",
+    "target": "Marco ascolta la musica.",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "ascolta",
+      "la",
+      "marco",
+      "musica"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S010",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "I eat the bread.",
+    "target": "Mangio il pane.",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "il",
+      "mangio",
+      "pane"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io mangio il pane."
+    ],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S011",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "My sister lives in Rome and studies French.",
+    "target": "Mia sorella abita a Roma e studia francese.",
+    "type": "integration",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present"
+    ],
+    "vocabulary": [
+      "a",
+      "abita",
+      "e",
+      "francese",
+      "mia",
+      "roma",
+      "sorella",
+      "studia"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U1-S012",
+    "unit": "A1-M3-U1",
+    "level": "A1",
+    "prompt": "Do you speak with Anna?",
+    "target": "Parli con Anna?",
+    "type": "variation",
+    "targets": [
+      "are-present"
+    ],
+    "grammar": [
+      "are-present",
+      "question"
+    ],
+    "vocabulary": [
+      "anna",
+      "con",
+      "parli"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  }
+]

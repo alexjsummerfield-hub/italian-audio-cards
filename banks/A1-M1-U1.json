@@ -1,0 +1,327 @@
+[
+  {
+    "id": "IT-A1-M1-U1-S001",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "I am tired.",
+    "target": "Sono stanca.",
+    "type": "core",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "sono",
+      "stanca"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io sono stanca."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "a woman speaking"
+  },
+  {
+    "id": "IT-A1-M1-U1-S002",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "I am Australian.",
+    "target": "Sono australiano.",
+    "type": "core",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "australiano",
+      "sono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io sono australiano."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A1-M1-U1-S003",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "She is French.",
+    "target": "Lei è francese.",
+    "type": "core",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "francese",
+      "lei",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "È francese."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U1-S004",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "Marco is a student.",
+    "target": "Marco è studente.",
+    "type": "core",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "marco",
+      "studente",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U1-S005",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "Anna is a teacher.",
+    "target": "Anna è insegnante.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "insegnante",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U1-S006",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "We are happy.",
+    "target": "Siamo contenti.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "contenti",
+      "siamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo contenti."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  },
+  {
+    "id": "IT-A1-M1-U1-S007",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "They are tired.",
+    "target": "Sono stanche.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "sono",
+      "stanche"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro sono stanche."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "an all-female group"
+  },
+  {
+    "id": "IT-A1-M1-U1-S008",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "Are you Italian?",
+    "target": "Sei italiana?",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "question"
+    ],
+    "vocabulary": [
+      "italiana",
+      "sei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "speaking informally to one woman"
+  },
+  {
+    "id": "IT-A1-M1-U1-S009",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "You are not teachers.",
+    "target": "Non siete insegnanti.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "insegnanti",
+      "non",
+      "siete"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Voi non siete insegnanti."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A1-M1-U1-S010",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "I am not French.",
+    "target": "Non sono francese.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "negation"
+    ],
+    "vocabulary": [
+      "francese",
+      "non",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non sono francese."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M1-U1-S011",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "We are Italian, but Anna is Australian.",
+    "target": "Siamo italiani, ma Anna è australiana.",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present"
+    ],
+    "vocabulary": [
+      "anna",
+      "australiana",
+      "italiani",
+      "ma",
+      "siamo",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo italiani, ma Anna è australiana."
+    ],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  },
+  {
+    "id": "IT-A1-M1-U1-S012",
+    "unit": "A1-M1-U1",
+    "level": "A1",
+    "prompt": "Are they students?",
+    "target": "Sono studenti?",
+    "type": "variation",
+    "targets": [
+      "essere-present"
+    ],
+    "grammar": [
+      "essere-present",
+      "question"
+    ],
+    "vocabulary": [
+      "sono",
+      "studenti"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M1-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "IT-A1-M3-U3-S001",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "We go home.",
+    "target": "Andiamo a casa.",
+    "type": "core",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "a",
+      "andiamo",
+      "casa"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi andiamo a casa."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S002",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "Anna goes to school.",
+    "target": "Anna va a scuola.",
+    "type": "core",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "a",
+      "anna",
+      "scuola",
+      "va"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S003",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "I have breakfast.",
+    "target": "Faccio colazione.",
+    "type": "core",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "colazione",
+      "faccio"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io faccio colazione."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S004",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "They take a shower.",
+    "target": "Fanno la doccia.",
+    "type": "core",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "doccia",
+      "fanno",
+      "la"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Loro fanno la doccia."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S005",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "We are well.",
+    "target": "Stiamo bene.",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "bene",
+      "stiamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi stiamo bene."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S006",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "I am unwell.",
+    "target": "Sto male.",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "male",
+      "sto"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io sto male."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S007",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "Do you know how to read?",
+    "target": "Sai leggere?",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present",
+      "question"
+    ],
+    "vocabulary": [
+      "leggere",
+      "sai"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M3-U3-S008",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "We know how to write.",
+    "target": "Sappiamo scrivere.",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "sappiamo",
+      "scrivere"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi sappiamo scrivere."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S009",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "I drink the milk.",
+    "target": "Bevo il latte.",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "bevo",
+      "il",
+      "latte"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io bevo il latte."
+    ],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S010",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "Marco comes from Milan.",
+    "target": "Marco viene da Milano.",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "da",
+      "marco",
+      "milano",
+      "viene"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M3-U3-S011",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "Are you coming with Anna?",
+    "target": "Vieni con Anna?",
+    "type": "variation",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present",
+      "question"
+    ],
+    "vocabulary": [
+      "anna",
+      "con",
+      "vieni"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A1-M3-U3-S012",
+    "unit": "A1-M3-U3",
+    "level": "A1",
+    "prompt": "My mother has breakfast and drinks a coffee.",
+    "target": "Mia madre fa colazione e beve un caffè.",
+    "type": "integration",
+    "targets": [
+      "irregular-present"
+    ],
+    "grammar": [
+      "irregular-present"
+    ],
+    "vocabulary": [
+      "beve",
+      "caffè",
+      "colazione",
+      "e",
+      "fa",
+      "madre",
+      "mia",
+      "un"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M3-U3"
+    ],
+    "status": "curated"
+  }
+]

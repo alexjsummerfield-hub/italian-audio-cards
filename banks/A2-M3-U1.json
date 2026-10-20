@@ -1,0 +1,336 @@
+[
+  {
+    "id": "IT-A2-M3-U1-S001",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "I will work tomorrow.",
+    "target": "Lavorerò domani.",
+    "type": "core",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "domani",
+      "lavorerò"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io lavorerò domani."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S002",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "We will speak Italian.",
+    "target": "Parleremo italiano.",
+    "type": "core",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "italiano",
+      "parleremo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi parleremo italiano."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S003",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "Anna will leave next week.",
+    "target": "Anna partirà la settimana prossima.",
+    "type": "core",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "anna",
+      "la",
+      "partirà",
+      "prossima",
+      "settimana"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S004",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "They will read the book.",
+    "target": "Leggeranno il libro.",
+    "type": "core",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "il",
+      "leggeranno",
+      "libro"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Loro leggeranno il libro."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S005",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "Will you come tomorrow?",
+    "target": "Verrai domani?",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future",
+      "question"
+    ],
+    "vocabulary": [
+      "domani",
+      "verrai"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M3-U1-S006",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "I will be at home tomorrow.",
+    "target": "Sarò a casa domani.",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "a",
+      "casa",
+      "domani",
+      "sarò"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io sarò a casa domani."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S007",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "We will have time.",
+    "target": "Avremo tempo.",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "avremo",
+      "tempo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi avremo tempo."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S008",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "Marco will go to Rome.",
+    "target": "Marco andrà a Roma.",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "a",
+      "andrà",
+      "marco",
+      "roma"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S009",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "I will not drink coffee tomorrow.",
+    "target": "Non berrò caffè domani.",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future",
+      "negation"
+    ],
+    "vocabulary": [
+      "berrò",
+      "caffè",
+      "domani",
+      "non"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non berrò caffè domani."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S010",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "We will leave in three days.",
+    "target": "Partiremo tra tre giorni.",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "giorni",
+      "partiremo",
+      "tra",
+      "tre"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi partiremo tra tre giorni.",
+      "Partiremo fra tre giorni.",
+      "Partiremo tra 3 giorni.",
+      "Noi partiremo tra 3 giorni.",
+      "Partiremo fra 3 giorni."
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U1-S011",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "What will you do tomorrow?",
+    "target": "Che cosa farete domani?",
+    "type": "variation",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future",
+      "question"
+    ],
+    "vocabulary": [
+      "che",
+      "cosa",
+      "domani",
+      "farete"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Cosa farete domani?"
+    ],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "several people"
+  },
+  {
+    "id": "IT-A2-M3-U1-S012",
+    "unit": "A2-M3-U1",
+    "level": "A2",
+    "prompt": "Anna will go to Milan and will come back next week.",
+    "target": "Anna andrà a Milano e tornerà la settimana prossima.",
+    "type": "integration",
+    "targets": [
+      "future"
+    ],
+    "grammar": [
+      "future"
+    ],
+    "vocabulary": [
+      "a",
+      "andrà",
+      "anna",
+      "e",
+      "la",
+      "milano",
+      "prossima",
+      "settimana",
+      "tornerà"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U1"
+    ],
+    "status": "curated"
+  }
+]

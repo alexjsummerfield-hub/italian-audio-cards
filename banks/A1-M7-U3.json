@@ -1,0 +1,318 @@
+[
+  {
+    "id": "IT-A1-M7-U3-S001",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like a tea, please.",
+    "target": "Vorrei un tè, per favore.",
+    "type": "core",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "favore",
+      "per",
+      "tè",
+      "un",
+      "vorrei"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S002",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like half a kilogram of bread.",
+    "target": "Vorrei mezzo chilo di pane.",
+    "type": "core",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "chilo",
+      "di",
+      "mezzo",
+      "pane",
+      "vorrei"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S003",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like to pay.",
+    "target": "Vorrei pagare.",
+    "type": "core",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "pagare",
+      "vorrei"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S004",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like a cappuccino.",
+    "target": "Vorrei un cappuccino.",
+    "type": "core",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "cappuccino",
+      "un",
+      "vorrei"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S005",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "Just the bill, please.",
+    "target": "Solo il conto, per favore.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "conto",
+      "favore",
+      "il",
+      "per",
+      "solo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S006",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "That is all.",
+    "target": "Basta così.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "basta",
+      "così"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S007",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "No, thank you.",
+    "target": "No, grazie.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "grazie",
+      "no"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S008",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like two tickets to Milan.",
+    "target": "Vorrei due biglietti per Milano.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "biglietti",
+      "due",
+      "milano",
+      "per",
+      "vorrei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Vorrei 2 biglietti per Milano."
+    ],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S009",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like to buy a book.",
+    "target": "Vorrei comprare un libro.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "comprare",
+      "libro",
+      "un",
+      "vorrei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S010",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "Here you are.",
+    "target": "Ecco a Lei.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "a",
+      "ecco",
+      "lei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "handing something over politely"
+  },
+  {
+    "id": "IT-A1-M7-U3-S011",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like a bottle of water, please.",
+    "target": "Vorrei una bottiglia d'acqua, per favore.",
+    "type": "variation",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "bottiglia",
+      "d'acqua",
+      "favore",
+      "per",
+      "una",
+      "vorrei"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U3-S012",
+    "unit": "A1-M7-U3",
+    "level": "A1",
+    "prompt": "I would like a coffee and a croissant, please.",
+    "target": "Vorrei un caffè e un cornetto, per favore.",
+    "type": "integration",
+    "targets": [
+      "polite-requests"
+    ],
+    "grammar": [
+      "polite-requests"
+    ],
+    "vocabulary": [
+      "caffè",
+      "cornetto",
+      "e",
+      "favore",
+      "per",
+      "un",
+      "vorrei"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U3"
+    ],
+    "status": "curated"
+  }
+]

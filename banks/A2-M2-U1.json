@@ -1,0 +1,323 @@
+[
+  {
+    "id": "IT-A2-M2-U1-S001",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Marco is tall.",
+    "target": "Marco è alto.",
+    "type": "core",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "alto",
+      "marco",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S002",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Anna is short.",
+    "target": "Anna è bassa.",
+    "type": "core",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "anna",
+      "bassa",
+      "è"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S003",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "My brother has brown hair.",
+    "target": "Mio fratello ha i capelli castani.",
+    "type": "core",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "capelli",
+      "castani",
+      "fratello",
+      "ha",
+      "i",
+      "mio"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S004",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "My sister has green eyes.",
+    "target": "Mia sorella ha gli occhi verdi.",
+    "type": "core",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "gli",
+      "ha",
+      "mia",
+      "occhi",
+      "sorella",
+      "verdi"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S005",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "They are kind.",
+    "target": "Sono gentili.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "gentili",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro sono gentili."
+    ],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S006",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "We are patient.",
+    "target": "Siamo pazienti.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "pazienti",
+      "siamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo pazienti."
+    ],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S007",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Anna is shy.",
+    "target": "Anna è timida.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "anna",
+      "timida",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S008",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Marco is outgoing.",
+    "target": "Marco è estroverso.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "estroverso",
+      "marco",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S009",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "The chairs are blue.",
+    "target": "Le sedie sono blu.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "blu",
+      "le",
+      "sedie",
+      "sono"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S010",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "My male friend is elderly.",
+    "target": "Il mio amico è anziano.",
+    "type": "variation",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "amico",
+      "anziano",
+      "il",
+      "mio",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S011",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Anna has curly hair and blue eyes.",
+    "target": "Anna ha i capelli ricci e gli occhi azzurri.",
+    "type": "integration",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "anna",
+      "azzurri",
+      "capelli",
+      "e",
+      "gli",
+      "ha",
+      "i",
+      "occhi",
+      "ricci"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M2-U1-S012",
+    "unit": "A2-M2-U1",
+    "level": "A2",
+    "prompt": "Marco is tall, but his brother is short.",
+    "target": "Marco è alto, ma suo fratello è basso.",
+    "type": "integration",
+    "targets": [
+      "description"
+    ],
+    "grammar": [
+      "description"
+    ],
+    "vocabulary": [
+      "alto",
+      "basso",
+      "fratello",
+      "ma",
+      "marco",
+      "suo",
+      "è"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M2-U1"
+    ],
+    "status": "curated"
+  }
+]

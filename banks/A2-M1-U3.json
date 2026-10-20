@@ -1,0 +1,343 @@
+[
+  {
+    "id": "IT-A2-M1-U3-S001",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "As a child, I used to live in Rome.",
+    "target": "Da bambino abitavo a Roma.",
+    "type": "core",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "a",
+      "abitavo",
+      "bambino",
+      "da",
+      "roma"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A2-M1-U3-S002",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "We used to work every day.",
+    "target": "Lavoravamo ogni giorno.",
+    "type": "core",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "giorno",
+      "lavoravamo",
+      "ogni"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi lavoravamo ogni giorno."
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S003",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "Anna used to read in the evening.",
+    "target": "Anna leggeva la sera.",
+    "type": "core",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "anna",
+      "la",
+      "leggeva",
+      "sera"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S004",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "They used to sleep well.",
+    "target": "Dormivano bene.",
+    "type": "core",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "bene",
+      "dormivano"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Loro dormivano bene."
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S005",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "I used to have a small car.",
+    "target": "Avevo una macchina piccola.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "avevo",
+      "macchina",
+      "piccola",
+      "una"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io avevo una macchina piccola."
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S006",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "We were tired.",
+    "target": "Eravamo stanchi.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "eravamo",
+      "stanchi"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi eravamo stanchi."
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a background description; male or mixed group"
+  },
+  {
+    "id": "IT-A2-M1-U3-S007",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "What did you usually do in the evening?",
+    "target": "Che cosa facevi di solito la sera?",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto",
+      "question"
+    ],
+    "vocabulary": [
+      "che",
+      "cosa",
+      "di",
+      "facevi",
+      "la",
+      "sera",
+      "solito"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Cosa facevi di solito la sera?"
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M1-U3-S008",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "Marco used to go to school on foot.",
+    "target": "Marco andava a scuola a piedi.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "a",
+      "andava",
+      "marco",
+      "piedi",
+      "scuola"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S009",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "I used to drink milk in the morning.",
+    "target": "Bevevo il latte la mattina.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "bevevo",
+      "il",
+      "la",
+      "latte",
+      "mattina"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io bevevo il latte la mattina."
+    ],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M1-U3-S010",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "As a child, I was happy.",
+    "target": "Da bambina ero contenta.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "bambina",
+      "contenta",
+      "da",
+      "ero"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a woman speaking"
+  },
+  {
+    "id": "IT-A2-M1-U3-S011",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "As a child, I used to read every day, but yesterday I read only one book.",
+    "target": "Da bambino leggevo ogni giorno, ma ieri ho letto solo un libro.",
+    "type": "integration",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "bambino",
+      "da",
+      "giorno",
+      "ho",
+      "ieri",
+      "leggevo",
+      "letto",
+      "libro",
+      "ma",
+      "ogni",
+      "solo",
+      "un"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A2-M1-U3-S012",
+    "unit": "A2-M1-U3",
+    "level": "A2",
+    "prompt": "While Anna was reading, Marco arrived.",
+    "target": "Mentre Anna leggeva, Marco è arrivato.",
+    "type": "variation",
+    "targets": [
+      "imperfetto"
+    ],
+    "grammar": [
+      "imperfetto"
+    ],
+    "vocabulary": [
+      "anna",
+      "arrivato",
+      "leggeva",
+      "marco",
+      "mentre",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M1-U3"
+    ],
+    "status": "curated"
+  }
+]

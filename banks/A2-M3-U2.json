@@ -1,0 +1,363 @@
+[
+  {
+    "id": "IT-A2-M3-U2-S001",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "Yesterday I had to work.",
+    "target": "Ieri ho dovuto lavorare.",
+    "type": "core",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "dovuto",
+      "ho",
+      "ieri",
+      "lavorare"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S002",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "We had to study yesterday.",
+    "target": "Abbiamo dovuto studiare ieri.",
+    "type": "core",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "abbiamo",
+      "dovuto",
+      "ieri",
+      "studiare"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Noi abbiamo dovuto studiare ieri."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S003",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "Anna wanted to buy the book.",
+    "target": "Anna ha voluto comprare il libro.",
+    "type": "core",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "anna",
+      "comprare",
+      "ha",
+      "il",
+      "libro",
+      "voluto"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a completed choice, not an ongoing desire"
+  },
+  {
+    "id": "IT-A2-M3-U2-S004",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "I was able to read the book yesterday.",
+    "target": "Ho potuto leggere il libro ieri.",
+    "type": "core",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "ho",
+      "ieri",
+      "il",
+      "leggere",
+      "libro",
+      "potuto"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io ho potuto leggere il libro ieri."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S005",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "Marco had to go home.",
+    "target": "Marco è dovuto andare a casa.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "a",
+      "andare",
+      "casa",
+      "dovuto",
+      "marco",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Marco ha dovuto andare a casa."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S006",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "Anna had to leave early.",
+    "target": "Anna è dovuta partire presto.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "anna",
+      "dovuta",
+      "partire",
+      "presto",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Anna ha dovuto partire presto."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S007",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "We were able to leave yesterday.",
+    "target": "Siamo potuti partire ieri.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "ieri",
+      "partire",
+      "potuti",
+      "siamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi siamo potuti partire ieri.",
+      "Abbiamo potuto partire ieri."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  },
+  {
+    "id": "IT-A2-M3-U2-S008",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "I had to come back yesterday.",
+    "target": "Sono dovuta tornare ieri.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "dovuta",
+      "ieri",
+      "sono",
+      "tornare"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io sono dovuta tornare ieri.",
+      "Ho dovuto tornare ieri."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a woman speaking"
+  },
+  {
+    "id": "IT-A2-M3-U2-S009",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "They had to buy two tickets.",
+    "target": "Hanno dovuto comprare due biglietti.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "biglietti",
+      "comprare",
+      "dovuto",
+      "due",
+      "hanno"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Loro hanno dovuto comprare due biglietti.",
+      "Hanno dovuto comprare 2 biglietti.",
+      "Loro hanno dovuto comprare 2 biglietti."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A2-M3-U2-S010",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "I was not able to come yesterday.",
+    "target": "Non sono potuto venire ieri.",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals",
+      "negation"
+    ],
+    "vocabulary": [
+      "ieri",
+      "non",
+      "potuto",
+      "sono",
+      "venire"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io non sono potuto venire ieri.",
+      "Non ho potuto venire ieri."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a man speaking"
+  },
+  {
+    "id": "IT-A2-M3-U2-S011",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "Did you have to work yesterday?",
+    "target": "Hai dovuto lavorare ieri?",
+    "type": "variation",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals",
+      "question"
+    ],
+    "vocabulary": [
+      "dovuto",
+      "hai",
+      "ieri",
+      "lavorare"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "one person, informal"
+  },
+  {
+    "id": "IT-A2-M3-U2-S012",
+    "unit": "A2-M3-U2",
+    "level": "A2",
+    "prompt": "We had to go to Rome and buy two tickets.",
+    "target": "Siamo dovuti andare a Roma e comprare due biglietti.",
+    "type": "integration",
+    "targets": [
+      "past-modals"
+    ],
+    "grammar": [
+      "past-modals"
+    ],
+    "vocabulary": [
+      "a",
+      "andare",
+      "biglietti",
+      "comprare",
+      "dovuti",
+      "due",
+      "e",
+      "roma",
+      "siamo"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [
+      "Noi siamo dovuti andare a Roma e comprare due biglietti.",
+      "Abbiamo dovuto andare a Roma e comprare due biglietti.",
+      "Siamo dovuti andare a Roma e comprare 2 biglietti.",
+      "Noi siamo dovuti andare a Roma e comprare 2 biglietti.",
+      "Abbiamo dovuto andare a Roma e comprare 2 biglietti."
+    ],
+    "requires": [
+      "A2-M3-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "a male or mixed group"
+  }
+]

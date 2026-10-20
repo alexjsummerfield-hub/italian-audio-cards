@@ -1,0 +1,344 @@
+[
+  {
+    "id": "IT-A1-M7-U1-S001",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "I will have a coffee and a sandwich.",
+    "target": "Prendo un caffè e un panino.",
+    "type": "core",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "caffè",
+      "e",
+      "panino",
+      "prendo",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io prendo un caffè e un panino."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "ordering now"
+  },
+  {
+    "id": "IT-A1-M7-U1-S002",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "May I have a glass of water?",
+    "target": "Posso avere un bicchiere d'acqua?",
+    "type": "core",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities",
+      "question"
+    ],
+    "vocabulary": [
+      "avere",
+      "bicchiere",
+      "d'acqua",
+      "posso",
+      "un"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S003",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "I will have some bread.",
+    "target": "Prendo del pane.",
+    "type": "core",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "del",
+      "pane",
+      "prendo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io prendo del pane."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "ordering now"
+  },
+  {
+    "id": "IT-A1-M7-U1-S004",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "I like apples.",
+    "target": "Mi piacciono le mele.",
+    "type": "core",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "le",
+      "mele",
+      "mi",
+      "piacciono"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [
+      "Io mi piacciono le mele."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S005",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "I drink a glass of wine.",
+    "target": "Bevo un bicchiere di vino.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "bevo",
+      "bicchiere",
+      "di",
+      "un",
+      "vino"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io bevo un bicchiere di vino."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S006",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "We eat some pasta.",
+    "target": "Mangiamo della pasta.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "della",
+      "mangiamo",
+      "pasta"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi mangiamo della pasta."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S007",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "A cold beer, please.",
+    "target": "Una birra fredda, per favore.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "birra",
+      "favore",
+      "fredda",
+      "per",
+      "una"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S008",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "A hot tea, please.",
+    "target": "Un tè caldo, per favore.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "caldo",
+      "favore",
+      "per",
+      "tè",
+      "un"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S009",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "I will have a bottle of water.",
+    "target": "Prendo una bottiglia d'acqua.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "bottiglia",
+      "d'acqua",
+      "prendo",
+      "una"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io prendo una bottiglia d'acqua."
+    ],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated",
+    "prompt_note": "ordering now"
+  },
+  {
+    "id": "IT-A1-M7-U1-S010",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "May I have half a kilogram of bread?",
+    "target": "Posso avere mezzo chilo di pane?",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities",
+      "question"
+    ],
+    "vocabulary": [
+      "avere",
+      "chilo",
+      "di",
+      "mezzo",
+      "pane",
+      "posso"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S011",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "My sister likes pasta, but she wants to eat a pizza today.",
+    "target": "A mia sorella piace la pasta, ma oggi vuole mangiare una pizza.",
+    "type": "integration",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "a",
+      "la",
+      "ma",
+      "mangiare",
+      "mia",
+      "oggi",
+      "pasta",
+      "piace",
+      "pizza",
+      "sorella",
+      "una",
+      "vuole"
+    ],
+    "difficulty": 3,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U1-S012",
+    "unit": "A1-M7-U1",
+    "level": "A1",
+    "prompt": "The bill, please.",
+    "target": "Il conto, per favore.",
+    "type": "variation",
+    "targets": [
+      "food-quantities"
+    ],
+    "grammar": [
+      "food-quantities"
+    ],
+    "vocabulary": [
+      "conto",
+      "favore",
+      "il",
+      "per"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U1"
+    ],
+    "status": "curated"
+  }
+]

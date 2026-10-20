@@ -1,0 +1,330 @@
+[
+  {
+    "id": "IT-A1-M7-U2-S001",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "How much does the ticket cost?",
+    "target": "Quanto costa il biglietto?",
+    "type": "core",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping",
+      "question"
+    ],
+    "vocabulary": [
+      "biglietto",
+      "costa",
+      "il",
+      "quanto"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S002",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "These shoes are too expensive.",
+    "target": "Queste scarpe sono troppo care.",
+    "type": "core",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "care",
+      "queste",
+      "scarpe",
+      "sono",
+      "troppo"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S003",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "Can I pay by card?",
+    "target": "Posso pagare con la carta?",
+    "type": "core",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping",
+      "question"
+    ],
+    "vocabulary": [
+      "carta",
+      "con",
+      "la",
+      "pagare",
+      "posso"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S004",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "Can I pay in cash?",
+    "target": "Posso pagare in contanti?",
+    "type": "core",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping",
+      "question"
+    ],
+    "vocabulary": [
+      "contanti",
+      "in",
+      "pagare",
+      "posso"
+    ],
+    "difficulty": 1,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S005",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "The ticket costs ten euros.",
+    "target": "Il biglietto costa dieci euro.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "biglietto",
+      "costa",
+      "dieci",
+      "euro",
+      "il"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Il biglietto costa 10 euro."
+    ],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S006",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "I buy two apples.",
+    "target": "Compro due mele.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "compro",
+      "due",
+      "mele"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io compro due mele.",
+      "Compro 2 mele.",
+      "Io compro 2 mele."
+    ],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S007",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "This T-shirt is beautiful.",
+    "target": "Questa maglietta è bella.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "bella",
+      "maglietta",
+      "questa",
+      "è"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S008",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "May I have the receipt?",
+    "target": "Posso avere lo scontrino?",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping",
+      "question"
+    ],
+    "vocabulary": [
+      "avere",
+      "lo",
+      "posso",
+      "scontrino"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S009",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "I will take it.",
+    "target": "La prendo.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "la",
+      "prendo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "choosing a T-shirt"
+  },
+  {
+    "id": "IT-A1-M7-U2-S010",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "I will take it.",
+    "target": "Lo prendo.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "lo",
+      "prendo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated",
+    "prompt_note": "choosing a book"
+  },
+  {
+    "id": "IT-A1-M7-U2-S011",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "We pay by card.",
+    "target": "Paghiamo con la carta.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "carta",
+      "con",
+      "la",
+      "paghiamo"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Noi paghiamo con la carta."
+    ],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  },
+  {
+    "id": "IT-A1-M7-U2-S012",
+    "unit": "A1-M7-U2",
+    "level": "A1",
+    "prompt": "I want to buy two tickets.",
+    "target": "Voglio comprare due biglietti.",
+    "type": "variation",
+    "targets": [
+      "shopping"
+    ],
+    "grammar": [
+      "shopping"
+    ],
+    "vocabulary": [
+      "biglietti",
+      "comprare",
+      "due",
+      "voglio"
+    ],
+    "difficulty": 2,
+    "accepted_answers": [
+      "Io voglio comprare due biglietti.",
+      "Voglio comprare 2 biglietti.",
+      "Io voglio comprare 2 biglietti."
+    ],
+    "requires": [
+      "A1-M7-U2"
+    ],
+    "status": "curated"
+  }
+]
