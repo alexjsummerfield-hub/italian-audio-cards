@@ -8,6 +8,7 @@ try{
 }catch{learningSaved=false}
 let allCards=[],catalog=[],guideRequest=0;
 const synth=window.speechSynthesis;
+try{const savedRate=localStorage.getItem('parliamo-rate-v1');if(['0.7','1'].includes(savedRate))$('rate').value=savedRate}catch{}
 try{voicePreference=localStorage.getItem('parliamo-voice-v1')||'auto'}catch{}
 try{history=JSON.parse(localStorage.getItem('parliamo-history-v1')||'{}')}catch{history={}}
 function save(){try{localStorage.setItem('parliamo-history-v1',JSON.stringify(history))}catch{}}
@@ -117,7 +118,7 @@ function previewItalianVoice(){
   $('voiceTestStatus').textContent='Sample finished: '+(voice?voice.name:'device default')+'.';
  },t,()=>{$('voiceTestStatus').textContent='The voice sample could not play. Try another voice.'});
 }
-function speak(text,lang,done,t,onFailure=()=>{}){if(t!==token)return;if(!synth){done();return}const u=new SpeechSynthesisUtterance(text);u.lang=lang;const vs=synth.getVoices();u.voice=lang==='it-IT'?selectedItalianVoice():vs.find(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2)))||null;u.rate=lang==='it-IT'?Number($('rate').value):1;u.onend=()=>{if(t===token)done()};u.onerror=()=>{if(t!==token)return;stop();setPhase('ready','Audio unavailable');$('notice').textContent='Audio could not play. Try Play again, or use Reveal and Next for text practice.';onFailure()};synth.speak(u)}
+function speak(text,lang,done,t,onFailure=()=>{}){if(t!==token)return;if(!synth){done();return}const u=new SpeechSynthesisUtterance(text);u.lang=lang;const vs=synth.getVoices();u.voice=lang==='it-IT'?selectedItalianVoice():vs.find(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2)))||null;u.volume=1;u.rate=lang==='it-IT'?Number($('rate').value):1;u.onend=()=>{if(t===token)done()};u.onerror=()=>{if(t!==token)return;stop();setPhase('ready','Audio unavailable');$('notice').textContent='Audio could not play. Try Play again, or use Reveal and Next for text practice.';onFailure()};synth.speak(u)}
 function revealText(){answerSeen=true;const c=session[index];$('answer').hidden=false;$('target').textContent=c.target;$('alternatives').textContent=c.accepted_answers.length?'Also valid: '+c.accepted_answers.join(' / '):(c.type!=='model'&&/^(Non )?(Ho|Hai|Ha|Abbiamo|Avete|Hanno|Sono|Siamo|Lui|Lei)\b/i.test(c.target)?'Subject pronouns may be included or omitted.':'')}
 function normalizeAnswer(text){
  return text.normalize('NFC').toLocaleLowerCase('it').replace(/[’‘]/g,"'").replace(/[.,!?;:…“”"¿¡]/g,' ').replace(/\s+/g,' ').trim();
@@ -157,8 +158,10 @@ function checkAnswer(event){
  lastMismatch=!match;$('acceptAnswer').hidden=match||currentAttempt.result!=='miss';
  $('feedback').hidden=false;
  $('feedback').dataset.result=match?'match':'compare';
- $('feedback').textContent=match?'Matches an accepted answer.':'Different from the stored answers. Compare with the model below.';
- $('response').focus({preventScroll:true});
+ $('feedback').textContent=match?'Matches an accepted answer.':'Not a match. Compare below.';
+ // Release the native keyboard/dictation session before model playback.
+ // Refocus on Next, rather than reopening dictation during speech.
+ $('response').blur();
  // Let keyboard dictation release its audio session before speaking.
  const t=token;
  revealText();running=true;$('pause').disabled=false;
@@ -201,6 +204,7 @@ $('back').onclick=()=>{
 };
 $('refreshVoices').onclick=()=>{voices();$('voiceTestStatus').textContent='Voice list refreshed.'};
 $('previewVoice').onclick=previewItalianVoice;
+$('rate').onchange=()=>{try{localStorage.setItem('parliamo-rate-v1',$('rate').value)}catch{}previewItalianVoice()};
 $('voice').onchange=()=>{$('voiceTestStatus').textContent='';voicePreference=$('voice').value;try{localStorage.setItem('parliamo-voice-v1',voicePreference)}catch{}updateVoiceDetails()};
 $('play').onclick=play;
 $('pause').onclick=()=>{stop();setPhase('ready','Paused · Play restarts this card')};

@@ -23,14 +23,15 @@ function boot(saved={}){
  const app=boot();await new Promise(resolve=>setImmediate(resolve));const {run,el}=app;
  run("currentSession=++learningState.sessionNumber;session=bank.filter(c=>c.type!=='model').slice(0,10);index=0;show();");
  el('response').value='Definitely not the answer';el('responseForm').onsubmit({preventDefault(){}});
- assert.equal(run('currentAttempt.result'),'miss');assert.equal(run('document.activeElement===document.getElementById("response")'),true);assert.equal(el('acceptAnswer').hidden,false);assert.equal(run('learningState.records[session[0].id].attempts'),1);
+ assert.equal(run('currentAttempt.result'),'miss');assert.equal(run('document.activeElement===document.getElementById("response")'),false);assert.equal(el('acceptAnswer').hidden,false);assert.equal(run('learningState.records[session[0].id].attempts'),1);
  el('responseForm').onsubmit({preventDefault(){}});assert.equal(run('learningState.records[session[0].id].attempts'),1);
  el('acceptAnswer').onclick();assert.equal(run('currentAttempt.result'),'accepted');assert.equal(run('learningState.records[session[0].id].misses||0'),0);assert.equal(run('learningState.records[session[0].id].correct'),1);assert.equal(el('acceptAnswer').hidden,true);
- el('next').onclick();assert.equal(run('session.length'),10);assert.equal(run('index'),1);
+ el('next').onclick();assert.equal(run('session.length'),10);assert.equal(run('index'),1);assert.equal(run('document.activeElement===document.getElementById("response")'),true);
+ el('rate').value='0.7';el('rate').onchange();assert.equal(app.spoken.at(-1).rate,0.7);assert.equal(app.spoken.at(-1).volume,1);assert.equal(app.saved['parliamo-rate-v1'],'0.7');
  el('response').value='Wrong again';el('responseForm').onsubmit({preventDefault(){}});el('next').onclick();assert.equal(run('session.length'),11);assert.equal(run('session[5].id'),run('session[1].id'));assert.equal(run('session[5]._retry'),true);
  run('index=3;show()');el('reveal').onclick();assert.equal(run('currentAttempt.result'),'assisted');el('response').value=run('session[index].target');el('responseForm').onsubmit({preventDefault(){}});assert.equal(run('currentAttempt.result'),'assisted');
  const savedBefore=JSON.parse(app.saved['parliamo-learning-v1']);assert(Object.keys(savedBefore.records).length>=3);assert(!app.saved['parliamo-learning-v1'].includes('Wrong again'));
- const reload=boot({...app.saved});await new Promise(resolve=>setImmediate(resolve));assert.equal(reload.run('Object.keys(learningState.records).length'),Object.keys(savedBefore.records).length);
+ const reload=boot({...app.saved});assert.equal(reload.el('rate').value,'0.7');await new Promise(resolve=>setImmediate(resolve));assert.equal(reload.run('Object.keys(learningState.records).length'),Object.keys(savedBefore.records).length);
  const missed=run('session[1].id');reload.run('currentSession=++learningState.sessionNumber');const ids=reload.run('buildSession().map(c=>c.id)');assert(ids.includes(missed));assert.equal(new Set(ids).size,10);
  for(const mode of ['first','later'])for(const n of [10,20,30,41]){reload.el('mode').value=mode;reload.el('length').value=String(n);for(let i=0;i<100;i++){const ids=reload.run('buildSession().map(c=>c.id)');assert.equal(ids.length,n+(mode==='first'?7:0));assert.equal(new Set(ids).size,ids.length)}}
  reload.el('level').value='A0';reload.el('level').onchange();await new Promise(resolve=>setImmediate(resolve));assert.equal(reload.run('bank.length'),12);assert(reload.run("bank.every(c=>c.type==='model')"));assert.equal(reload.run('buildSession().length'),12);reload.el('start').onclick();assert.equal(reload.el('responseForm').hidden,true);

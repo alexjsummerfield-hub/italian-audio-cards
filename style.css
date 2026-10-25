@@ -74,3 +74,10 @@
 .results{margin:24px 0}.results>div{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:14px 0;gap:12px}.results dt{font-size:17px}.results dd{font-size:30px;font-weight:750;margin:0}
 #completionNote{font-size:14px;color:#51665c}#again{background:var(--green);color:white}
 @media(max-width:600px){body.practising .cardTop{grid-template-columns:auto 1fr auto}body.practising #stage{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}body.practising #openSettings{order:4;margin:0}body.practising #instruction{margin-bottom:8px}body.practising #responseForm{padding-top:0;border:0;margin-top:10px}}
+
+.answer-actions{display:flex;align-items:center;gap:10px;flex-wrap:nowrap}
+.answer-actions #acceptAnswer{flex:none;margin:0;font-size:13px;padding:7px 9px}
+.answer-actions #reviewHint{font-size:12px;line-height:1.25;margin:0}
+#feedback[data-result="compare"]{white-space:nowrap;font-size:14px}
+body.practising #answer{margin-top:8px;padding-top:6px}
+body.practising #responseForm:has(.answer-actions button:not([hidden])) #feedback{margin-bottom:4px}
