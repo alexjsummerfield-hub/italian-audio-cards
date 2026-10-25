@@ -13,17 +13,17 @@ const dueRecords={[pool[0].id]:{needsReview:false,dueAt:now-1000},[pool[1].id]:{
 assert.equal(L.dueCards(pool,dueRecords,now)[0].id,pool[1].id);assert.equal(L.dueCards(pool,dueRecords,now).length,2);
 function boot(saved={}){
  const elements={},spoken=[],timers=new Map(),classes=new Set();let nextTimer=0;
- const node=tag=>({tag,children:[],value:'',textContent:'',hidden:true,disabled:false,dataset:{},appendChild(n){this.children.push(n)},replaceChildren(...n){this.children=n},add(n){this.children.push(n)},focus(){},blur(){},scrollIntoView(){}});
+ const node=tag=>({tag,children:[],value:'',textContent:'',hidden:true,disabled:false,dataset:{},appendChild(n){this.children.push(n)},replaceChildren(...n){this.children=n},add(n){this.children.push(n)},focus(){context.document.activeElement=this},blur(){if(context.document.activeElement===this)context.document.activeElement=null},showModal(){this.open=true},close(){this.open=false;this.onclose?.()},scrollIntoView(){}});
  const el=id=>{if(!elements[id]){elements[id]=node('');elements[id].value={mode:'later',length:'10',rate:'1',audioDelay:'1500'}[id]||''}return elements[id]};
  const context=vm.createContext({document:{getElementById:el,createElement:node,addEventListener(){},body:{classList:{add(v){classes.add(v)},remove(v){classes.delete(v)},contains(v){return classes.has(v)}}},documentElement:{style:{setProperty(){}}}},window:{addEventListener(){},visualViewport:{height:360,offsetTop:0,addEventListener(){}},speechSynthesis:{cancel(){},getVoices(){return []},speak(u){spoken.push(u)}}},SpeechSynthesisUtterance:function(text){this.text=text},localStorage:{getItem(k){return saved[k]||null},setItem(k,v){saved[k]=v}},fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url.split('?')[0]),'utf8')),text:async()=>fs.readFileSync(path.join(root,url.split('?')[0]),'utf8')}),Option:function(){},setTimeout(fn){const id=++nextTimer;timers.set(id,fn);return id},clearTimeout(id){timers.delete(id)},console,Math,Date});
- vm.runInContext(source,context);vm.runInContext(fs.readFileSync(path.join(root,'course.js'),'utf8'),context);vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),context);
+ vm.runInContext(fs.readFileSync(path.join(root,'session-results.js'),'utf8'),context);vm.runInContext(source,context);vm.runInContext(fs.readFileSync(path.join(root,'course.js'),'utf8'),context);vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),context);
  return {run:s=>vm.runInContext(s,context),el,saved,timers,spoken};
 }
 (async()=>{
  const app=boot();await new Promise(resolve=>setImmediate(resolve));const {run,el}=app;
  run("currentSession=++learningState.sessionNumber;session=bank.filter(c=>c.type!=='model').slice(0,10);index=0;show();");
  el('response').value='Definitely not the answer';el('responseForm').onsubmit({preventDefault(){}});
- assert.equal(run('currentAttempt.result'),'miss');assert.equal(el('acceptAnswer').hidden,false);assert.equal(run('learningState.records[session[0].id].attempts'),1);
+ assert.equal(run('currentAttempt.result'),'miss');assert.equal(run('document.activeElement===document.getElementById("response")'),true);assert.equal(el('acceptAnswer').hidden,false);assert.equal(run('learningState.records[session[0].id].attempts'),1);
  el('responseForm').onsubmit({preventDefault(){}});assert.equal(run('learningState.records[session[0].id].attempts'),1);
  el('acceptAnswer').onclick();assert.equal(run('currentAttempt.result'),'accepted');assert.equal(run('learningState.records[session[0].id].misses||0'),0);assert.equal(run('learningState.records[session[0].id].correct'),1);assert.equal(el('acceptAnswer').hidden,true);
  el('next').onclick();assert.equal(run('session.length'),10);assert.equal(run('index'),1);
@@ -39,5 +39,6 @@ function boot(saved={}){
  reload.el('level').value='A2';reload.el('level').onchange();await new Promise(resolve=>setImmediate(resolve));reload.el('scope').value='unit';reload.el('unit').value='A2-M4-U1';await reload.run('applyCourseSelection()');assert.equal(reload.run('bank.length'),12);assert(reload.run("bank.every(c=>c.unit==='A2-M4-U1')"));
  reload.el('scope').value='through';await reload.run('applyCourseSelection()');assert.equal(reload.run('bank.length'),384);
  reload.el('clear').onclick();assert.equal(reload.run('Object.keys(learningState.records).length'),0);assert.equal(JSON.parse(reload.saved['parliamo-learning-v1']).records.constructor,Object);
+ run('index=session.length-1;show();completeSession()');assert.equal(el('sessionComplete').hidden,false);assert.equal(el('cardBody').hidden,true);assert.equal(run('document.activeElement===document.getElementById("response")'),false);el('openSettings').onclick();assert.equal(el('settingsPanel').open,true);el('closeSettings').onclick();assert.equal(el('settingsPanel').open,false);
  console.log('PASS: spaced intervals, same-session protection, due priority, delayed/capped retries, override rollback, assisted answers, first-attempt counting, persistence, reset, privacy and 800 session selections.');
 })().catch(error=>{console.error(error);process.exitCode=1});

@@ -52,11 +52,12 @@ function recordResult(outcome,override=false){
 }
 function acceptCurrentAnswer(){
  if(!currentAttempt||currentAttempt.result!=='miss'||!lastMismatch)return;
- recordResult('accepted',true);lastMismatch=false;
+ recordResult('accepted',true);SessionResults.accept(index);lastMismatch=false;
  $('feedback').hidden=false;$('feedback').dataset.result='match';
  $('feedback').textContent='Accepted for this review.';$('acceptAnswer').hidden=true;
 }
 function markAssisted(){
+ SessionResults.help(index);
  if(session[index]?.type!=='model'&&!currentAttempt)recordResult('assisted');
 }
 function stop(){token++;clearTimeout(answerTimer);answerTimer=null;running=false;synth?.cancel();$('play').textContent='▶ Play';$('pause').disabled=true}
@@ -148,15 +149,16 @@ function checkAnswer(event){
  event.preventDefault();
  if(!session.length||finished||session[index].type==='model')return;
  const text=$('response').value.trim();
- if(!text){$('feedback').hidden=false;$('feedback').textContent='Dictate or type your Italian answer first.';return}
+ if(!text){$('feedback').dataset.result='empty';$('feedback').hidden=false;$('feedback').textContent='Dictate or type your Italian answer first.';return}
  stop();
  const match=matchesAnswer(text,session[index]);
+ SessionResults.check(index,match);
  recordResult(match?(answerSeen?'assisted':'correct'):'miss');
  lastMismatch=!match;$('acceptAnswer').hidden=match||currentAttempt.result!=='miss';
  $('feedback').hidden=false;
  $('feedback').dataset.result=match?'match':'compare';
  $('feedback').textContent=match?'Matches an accepted answer.':'Different from the stored answers. Compare with the model below.';
- $('response').blur();
+ $('response').focus({preventScroll:true});
  // Let keyboard dictation release its audio session before speaking.
  const t=token;
  revealText();running=true;$('pause').disabled=false;
@@ -164,9 +166,25 @@ function checkAnswer(event){
  answerTimer=setTimeout(()=>{answerTimer=null;if(t===token)answer(t)},Number($('audioDelay').value));
 
 }
-function show(){currentAttempt=null;answerSeen=false;lastMismatch=false;$('acceptAnswer').hidden=true;$('reviewHint').textContent='';const c=session[index];document.body.classList.add('practising');$('back').hidden=false;updatePracticeViewport();finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Return to check your answer');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save();if(c.type!=='model')$('response').focus({preventScroll:true})}
-function next(){stop();if(currentAttempt&&['miss','assisted'].includes(currentAttempt.result))Learning.queueRetry(session,index,retryIds);if(index+1>=session.length){finished=true;$('bar').value=session.length;setPhase('done','Session complete');$('progress').textContent=`${session.length} cards practised`;$('notice').textContent='Session complete. Missed cards stay due for the next session.';$('response').disabled=true;for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;return}index++;show();play();}
-$('start').onclick=()=>{stop();currentSession=++learningState.sessionNumber;retryIds=new Set();saveLearning();session=buildSession();index=0;show();$('notice').textContent='';play()};
+function show(){SessionResults.visit(session[index],index);$('cardBody').hidden=false;$('practiceControls').hidden=false;$('sessionComplete').hidden=true;currentAttempt=null;answerSeen=false;lastMismatch=false;$('acceptAnswer').hidden=true;$('reviewHint').textContent='';const c=session[index];document.body.classList.add('practising');$('back').hidden=false;updatePracticeViewport();finished=false;$('progress').textContent=`Card ${index+1} of ${session.length}`;$('bar').max=session.length;$('bar').value=index;$('prompt').textContent=c.prompt;$('promptNote').textContent=c.prompt_note?'('+c.prompt_note+')':'';$('promptNote').hidden=!c.prompt_note;$('instruction').textContent=c.type==='model'?'LISTEN & REPEAT':'SAY IT IN ITALIAN';$('next').textContent=index+1===session.length?'Finish ✓':'Next →';$('answer').hidden=true;$('responseForm').hidden=c.type==='model';$('response').value='';$('response').disabled=false;$('feedback').hidden=true;$('feedback').textContent='';setPhase('ready',c.type==='model'?'Tap Play when ready':'Return to check your answer');$('metadata').textContent=JSON.stringify(c,null,2);$('metadata').hidden=!$('debug').checked;for(const id of ['play','reveal','repeat','next'])$(id).disabled=false;const h=history[c.id]||{};const fresh=Date.now()-(h.lastPresented||0)>604800000;history[c.id]={lastPresented:Date.now(),recentExposureCount:(fresh?0:h.recentExposureCount||0)+1};save();if(c.type!=='model')$('response').focus({preventScroll:true})}
+function next(){stop();if(currentAttempt&&['miss','assisted'].includes(currentAttempt.result))Learning.queueRetry(session,index,retryIds);if(index+1>=session.length){completeSession();return}index++;show();play();}
+function startSession(){stop();SessionResults.reset();currentSession=++learningState.sessionNumber;retryIds=new Set();saveLearning();session=buildSession();index=0;show();$('notice').textContent='';play()}
+$('start').onclick=startSession;
+$('again').onclick=startSession;
+function completeSession(){
+ finished=true;$('response').blur();$('response').disabled=true;$('bar').value=session.length;setPhase('done','Session complete');
+ const result=SessionResults.totals();
+ $('progress').textContent='Session complete';$('cardBody').hidden=true;$('practiceControls').hidden=true;$('sessionComplete').hidden=false;
+ $('completionTotal').textContent=(result.total?result.total+' sentence cards completed':'')+(result.models?(result.total?' · ':'')+result.models+' pronunciation models completed':'')+'.';
+ for(const [id,value] of [['firstCount',result.first],['repeatCount',result.repeated],['pendingCount',result.pending]])$(id).textContent=String(value);
+ $('completionNote').textContent=(result.pending?'Not yet correct includes cards without a submitted match. ':'')+(result.accepted?result.accepted+' self-accepted answer'+(result.accepted===1?'':'s')+' included.':'');
+ $('sessionComplete').focus({preventScroll:true});
+}
+$('openSettings').onclick=()=>{stop();$('response').blur();$('settingsPanel').showModal()};
+$('closeSettings').onclick=()=>$('settingsPanel').close();
+$('settingsPanel').onclose=()=>{if(document.body.classList.contains('practising')&&!finished&&session[index]?.type!=='model')$('response').focus({preventScroll:true})};
+// Prevent the navigation tap from transferring focus away from the answer field.
+$('next').onpointerdown=event=>{if(document.activeElement===$('response'))event.preventDefault()};
 // Follow the visible area when Safari chrome or the software keyboard moves.
 function updatePracticeViewport(){
  if(!document.body.classList.contains('practising'))return;
@@ -209,7 +227,7 @@ function updateUnitOptions(preferred){
  $('unit').value=units.some(u=>u.id===preferred)?preferred:units[0].id;
 }
 async function applyCourseSelection(){
- stop();guideReady=false;$('start').disabled=true;session=[];currentAttempt=null;
+ stop();$('cardBody').hidden=false;$('practiceControls').hidden=false;$('sessionComplete').hidden=true;guideReady=false;$('start').disabled=true;session=[];currentAttempt=null;
  document.body.classList.remove('practising');$('back').hidden=true;
  $('responseForm').hidden=true;$('answer').hidden=true;
  for(const id of ['play','pause','reveal','repeat','next'])$(id).disabled=true;

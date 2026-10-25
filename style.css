@@ -58,3 +58,19 @@
 .course-picker{margin:16px 0;padding:16px 0;border-top:1px solid var(--line)}
 .course-picker label{margin-bottom:6px}
 #unitInfo,#scopeNote{font-size:14px;color:#51665c}
+
+/* Compact practice and clear, essential answer cues. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.prompt-note,body.practising .prompt-note{font-size:18px;line-height:1.35;font-weight:700;color:#51331c;background:#fff0ce;border-left:4px solid #ae6225;border-radius:8px;padding:8px 10px;margin:8px 0 12px}
+#feedback[data-result="match"]::before{content:"✓";color:#17613d}
+#feedback[data-result="compare"]::before{content:"✕";color:#a22f24}
+#feedback::before{font-size:22px;font-weight:800;vertical-align:middle;margin-right:8px}
+#openSettings{width:44px;min-height:44px;padding:4px;font-size:24px;order:4;margin-left:auto}
+#settingsPanel{width:calc(100% - 28px);max-width:620px;max-height:85dvh;overflow:auto;border:1px solid var(--line);border-radius:20px;padding:20px;color:var(--ink);background:var(--paper)}
+#settingsPanel::backdrop{background:#183d3270}
+.settings-heading{display:flex;align-items:center;gap:12px;margin-bottom:20px}.settings-heading h2{font-size:24px;flex:1;margin:0}.settings-heading button{width:auto;min-height:44px}
+#settingsPanel>button{margin:6px 0}
+#sessionComplete{padding:16px 3px;overflow:auto;flex:1;min-height:0}
+.results{margin:24px 0}.results>div{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:14px 0;gap:12px}.results dt{font-size:17px}.results dd{font-size:30px;font-weight:750;margin:0}
+#completionNote{font-size:14px;color:#51665c}#again{background:var(--green);color:white}
+@media(max-width:600px){body.practising .cardTop{grid-template-columns:auto 1fr auto}body.practising #stage{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}body.practising #openSettings{order:4;margin:0}body.practising #instruction{margin-bottom:8px}body.practising #responseForm{padding-top:0;border:0;margin-top:10px}}
