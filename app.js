@@ -119,7 +119,7 @@ function previewItalianVoice(){
  },t,()=>{$('voiceTestStatus').textContent='The voice sample could not play. Try another voice.'});
 }
 function speak(text,lang,done,t,onFailure=()=>{}){if(t!==token)return;if(!synth){done();return}const u=new SpeechSynthesisUtterance(text);u.lang=lang;const vs=synth.getVoices();u.voice=lang==='it-IT'?selectedItalianVoice():vs.find(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2)))||null;u.volume=1;u.rate=lang==='it-IT'?Number($('rate').value):1;u.onend=()=>{if(t===token)done()};u.onerror=()=>{if(t!==token)return;stop();setPhase('ready','Audio unavailable');$('notice').textContent='Audio could not play. Try Play again, or use Reveal and Next for text practice.';onFailure()};synth.speak(u)}
-function revealText(){answerSeen=true;const c=session[index];$('answer').hidden=false;$('target').textContent=c.target;$('alternatives').textContent=c.accepted_answers.length?'Also valid: '+c.accepted_answers.join(' / '):(c.type!=='model'&&/^(Non )?(Ho|Hai|Ha|Abbiamo|Avete|Hanno|Sono|Siamo|Lui|Lei)\b/i.test(c.target)?'Subject pronouns may be included or omitted.':'')}
+function revealText(){answerSeen=true;const c=session[index];$('answer').hidden=false;$('target').textContent=c.target;$('alternatives').textContent=c.accepted_answers.length?'Also valid: '+c.accepted_answers.join(' / '):(c.type!=='model'&&/^(Non )?(Ho|Hai|Ha|Abbiamo|Avete|Hanno|Sono|Siamo|Lui|Lei)\b/i.test(c.target)?'Subject pronouns may be included or omitted.':'');$('answer').scrollIntoView({block:'nearest'})}
 function normalizeAnswer(text){
  return text.normalize('NFC').toLocaleLowerCase('it').replace(/[’‘]/g,"'").replace(/[.,!?;:…“”"¿¡]/g,' ').replace(/\s+/g,' ').trim();
 }
